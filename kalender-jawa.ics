@@ -1,0 +1,4402 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Kalender Jawa//arrjawa.blogspot.com//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Kalender Jawa
+X-WR-TIMEZONE:Asia/Jakarta
+X-WR-CALDESC:Kalender Jawa dengan Pasaran, Wuku, Neptu, dan Neton
+REFRESH-INTERVAL;VALUE=DURATION:PT24H
+BEGIN:VEVENT
+UID:kalender-jawa-20260820@arrjawa.blogspot.com
+DTSTAMP:20260820T000000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:Kamis Pon - Warijathil
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Warijathil\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260821@arrjawa.blogspot.com
+DTSTAMP:20260821T000000Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:Jumat Wage - Warijathil
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Warijathil\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260822@arrjawa.blogspot.com
+DTSTAMP:20260822T000000Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:Sabtu Kliwon - Warijathil
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Warijathil\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260823@arrjawa.blogspot.com
+DTSTAMP:20260823T000000Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:Ahad Legi - Warijathil
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Warijathil\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260824@arrjawa.blogspot.com
+DTSTAMP:20260824T000000Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+SUMMARY:Senen Pahing - Tolu
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Tolu\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260825@arrjawa.blogspot.com
+DTSTAMP:20260825T000000Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:Selasa Pon - Tolu
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Tolu\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260826@arrjawa.blogspot.com
+DTSTAMP:20260826T000000Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:Rabu Wage - Tolu
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Tolu\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260827@arrjawa.blogspot.com
+DTSTAMP:20260827T000000Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:Kamis Kliwon - Tolu
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Tolu\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260828@arrjawa.blogspot.com
+DTSTAMP:20260828T000000Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:Jumat Legi - Tolu
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Tolu\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260829@arrjawa.blogspot.com
+DTSTAMP:20260829T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:Sabtu Pahing - Tolu
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Tolu\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260830@arrjawa.blogspot.com
+DTSTAMP:20260830T000000Z
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260831
+SUMMARY:Ahad Pon - Tolu
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Tolu\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260831@arrjawa.blogspot.com
+DTSTAMP:20260831T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+SUMMARY:Senen Wage - Gajamina
+DESCRIPTION:Weton: Senen Wage\\nWuku: Gajamina\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260901@arrjawa.blogspot.com
+DTSTAMP:20260901T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:Selasa Kliwon - Gajamina
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Gajamina\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260902@arrjawa.blogspot.com
+DTSTAMP:20260902T000000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:Rabu Legi - Gajamina
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Gajamina\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260903@arrjawa.blogspot.com
+DTSTAMP:20260903T000000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Kamis Pahing - Gajamina
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Gajamina\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260904@arrjawa.blogspot.com
+DTSTAMP:20260904T000000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Jumat Pon - Gajamina
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Gajamina\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260905@arrjawa.blogspot.com
+DTSTAMP:20260905T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:Sabtu Wage - Gajamina
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Gajamina\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260906@arrjawa.blogspot.com
+DTSTAMP:20260906T000000Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:Ahad Kliwon - Gajamina
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Gajamina\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260907@arrjawa.blogspot.com
+DTSTAMP:20260907T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Senen Legi - Kurantil
+DESCRIPTION:Weton: Senen Legi\\nWuku: Kurantil\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260908@arrjawa.blogspot.com
+DTSTAMP:20260908T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Selasa Pahing - Kurantil
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Kurantil\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260909@arrjawa.blogspot.com
+DTSTAMP:20260909T000000Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:Rabu Pon - Kurantil
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Kurantil\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260910@arrjawa.blogspot.com
+DTSTAMP:20260910T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Kamis Wage - Kurantil
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Kurantil\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260911@arrjawa.blogspot.com
+DTSTAMP:20260911T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:Jumat Kliwon - Kurantil
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Kurantil\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260912@arrjawa.blogspot.com
+DTSTAMP:20260912T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Sabtu Legi - Kurantil
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Kurantil\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260913@arrjawa.blogspot.com
+DTSTAMP:20260913T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:Ahad Pahing - Kurantil
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Kurantil\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260914@arrjawa.blogspot.com
+DTSTAMP:20260914T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Senen Pon - Salahunan
+DESCRIPTION:Weton: Senen Pon\\nWuku: Salahunan\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260915@arrjawa.blogspot.com
+DTSTAMP:20260915T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Selasa Wage - Salahunan
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Salahunan\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260916@arrjawa.blogspot.com
+DTSTAMP:20260916T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:Rabu Kliwon - Salahunan
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Salahunan\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260917@arrjawa.blogspot.com
+DTSTAMP:20260917T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Kamis Legi - Salahunan
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Salahunan\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260918@arrjawa.blogspot.com
+DTSTAMP:20260918T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:Jumat Pahing - Salahunan
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Salahunan\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260919@arrjawa.blogspot.com
+DTSTAMP:20260919T000000Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260920
+SUMMARY:Sabtu Pon - Salahunan
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Salahunan\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260920@arrjawa.blogspot.com
+DTSTAMP:20260920T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Ahad Wage - Salahunan
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Salahunan\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260921@arrjawa.blogspot.com
+DTSTAMP:20260921T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Senen Kliwon - Gentini
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Gentini\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260922@arrjawa.blogspot.com
+DTSTAMP:20260922T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Selasa Legi - Gentini
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Gentini\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260923@arrjawa.blogspot.com
+DTSTAMP:20260923T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:Rabu Pahing - Gentini
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Gentini\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260924@arrjawa.blogspot.com
+DTSTAMP:20260924T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Kamis Pon - Gentini
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Gentini\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260925@arrjawa.blogspot.com
+DTSTAMP:20260925T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Jumat Wage - Gentini
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Gentini\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260926@arrjawa.blogspot.com
+DTSTAMP:20260926T000000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Sabtu Kliwon - Gentini
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Gentini\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260927@arrjawa.blogspot.com
+DTSTAMP:20260927T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:Ahad Legi - Gentini
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Gentini\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260928@arrjawa.blogspot.com
+DTSTAMP:20260928T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Senen Pahing - Lintang
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Lintang\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260929@arrjawa.blogspot.com
+DTSTAMP:20260929T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Selasa Pon - Lintang
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Lintang\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20260930@arrjawa.blogspot.com
+DTSTAMP:20260930T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:Rabu Wage - Lintang
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Lintang\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261001@arrjawa.blogspot.com
+DTSTAMP:20261001T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Kamis Kliwon - Lintang
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Lintang\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261002@arrjawa.blogspot.com
+DTSTAMP:20261002T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Jumat Legi - Lintang
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Lintang\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261003@arrjawa.blogspot.com
+DTSTAMP:20261003T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Sabtu Pahing - Lintang
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Lintang\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261004@arrjawa.blogspot.com
+DTSTAMP:20261004T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+SUMMARY:Ahad Pon - Lintang
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Lintang\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261005@arrjawa.blogspot.com
+DTSTAMP:20261005T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Senen Wage - Pandhawa
+DESCRIPTION:Weton: Senen Wage\\nWuku: Pandhawa\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261006@arrjawa.blogspot.com
+DTSTAMP:20261006T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Selasa Kliwon - Pandhawa
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Pandhawa\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261007@arrjawa.blogspot.com
+DTSTAMP:20261007T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Rabu Legi - Pandhawa
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Pandhawa\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261008@arrjawa.blogspot.com
+DTSTAMP:20261008T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Kamis Pahing - Pandhawa
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Pandhawa\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261009@arrjawa.blogspot.com
+DTSTAMP:20261009T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Jumat Pon - Pandhawa
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Pandhawa\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261010@arrjawa.blogspot.com
+DTSTAMP:20261010T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Sabtu Wage - Pandhawa
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Pandhawa\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261011@arrjawa.blogspot.com
+DTSTAMP:20261011T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:Ahad Kliwon - Pandhawa
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Pandhawa\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261012@arrjawa.blogspot.com
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Senen Legi - Pandawa
+DESCRIPTION:Weton: Senen Legi\\nWuku: Pandawa\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261013@arrjawa.blogspot.com
+DTSTAMP:20261013T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Selasa Pahing - Pandawa
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Pandawa\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261014@arrjawa.blogspot.com
+DTSTAMP:20261014T000000Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Rabu Pon - Pandawa
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Pandawa\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261015@arrjawa.blogspot.com
+DTSTAMP:20261015T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Kamis Wage - Pandawa
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Pandawa\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261016@arrjawa.blogspot.com
+DTSTAMP:20261016T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Jumat Kliwon - Pandawa
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Pandawa\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261017@arrjawa.blogspot.com
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Sabtu Legi - Pandawa
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Pandawa\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261018@arrjawa.blogspot.com
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Ahad Pahing - Pandawa
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Pandawa\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261019@arrjawa.blogspot.com
+DTSTAMP:20261019T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Senen Pon - Wulanhayu
+DESCRIPTION:Weton: Senen Pon\\nWuku: Wulanhayu\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261020@arrjawa.blogspot.com
+DTSTAMP:20261020T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Selasa Wage - Wulanhayu
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Wulanhayu\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261021@arrjawa.blogspot.com
+DTSTAMP:20261021T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Rabu Kliwon - Wulanhayu
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Wulanhayu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261022@arrjawa.blogspot.com
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Kamis Legi - Wulanhayu
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Wulanhayu\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261023@arrjawa.blogspot.com
+DTSTAMP:20261023T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Jumat Pahing - Wulanhayu
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Wulanhayu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261024@arrjawa.blogspot.com
+DTSTAMP:20261024T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Sabtu Pon - Wulanhayu
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Wulanhayu\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261025@arrjawa.blogspot.com
+DTSTAMP:20261025T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Ahad Wage - Wulanhayu
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Wulanhayu\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261026@arrjawa.blogspot.com
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Senen Kliwon - Madangkungan
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Madangkungan\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261027@arrjawa.blogspot.com
+DTSTAMP:20261027T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Selasa Legi - Madangkungan
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Madangkungan\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261028@arrjawa.blogspot.com
+DTSTAMP:20261028T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Rabu Pahing - Madangkungan
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Madangkungan\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261029@arrjawa.blogspot.com
+DTSTAMP:20261029T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Kamis Pon - Madangkungan
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Madangkungan\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261030@arrjawa.blogspot.com
+DTSTAMP:20261030T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Jumat Wage - Madangkungan
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Madangkungan\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261031@arrjawa.blogspot.com
+DTSTAMP:20261031T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Sabtu Kliwon - Madangkungan
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Madangkungan\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261101@arrjawa.blogspot.com
+DTSTAMP:20261101T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Ahad Legi - Madangkungan
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Madangkungan\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261102@arrjawa.blogspot.com
+DTSTAMP:20261102T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Senen Pahing - Mahameru
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Mahameru\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261103@arrjawa.blogspot.com
+DTSTAMP:20261103T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Selasa Pon - Mahameru
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Mahameru\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261104@arrjawa.blogspot.com
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Rabu Wage - Mahameru
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Mahameru\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261105@arrjawa.blogspot.com
+DTSTAMP:20261105T000000Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Kamis Kliwon - Mahameru
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Mahameru\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261106@arrjawa.blogspot.com
+DTSTAMP:20261106T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Jumat Legi - Mahameru
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Mahameru\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261107@arrjawa.blogspot.com
+DTSTAMP:20261107T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Sabtu Pahing - Mahameru
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Mahameru\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261108@arrjawa.blogspot.com
+DTSTAMP:20261108T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Ahad Pon - Mahameru
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Mahameru\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261109@arrjawa.blogspot.com
+DTSTAMP:20261109T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:Senen Wage - Pawukon
+DESCRIPTION:Weton: Senen Wage\\nWuku: Pawukon\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261110@arrjawa.blogspot.com
+DTSTAMP:20261110T000000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Selasa Kliwon - Pawukon
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Pawukon\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261111@arrjawa.blogspot.com
+DTSTAMP:20261111T000000Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Rabu Legi - Pawukon
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Pawukon\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261112@arrjawa.blogspot.com
+DTSTAMP:20261112T000000Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Kamis Pahing - Pawukon
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Pawukon\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261113@arrjawa.blogspot.com
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:Jumat Pon - Pawukon
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Pawukon\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261114@arrjawa.blogspot.com
+DTSTAMP:20261114T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Sabtu Wage - Pawukon
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Pawukon\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261115@arrjawa.blogspot.com
+DTSTAMP:20261115T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Ahad Kliwon - Pawukon
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Pawukon\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261116@arrjawa.blogspot.com
+DTSTAMP:20261116T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Senen Legi - Kumba
+DESCRIPTION:Weton: Senen Legi\\nWuku: Kumba\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261117@arrjawa.blogspot.com
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Selasa Pahing - Kumba
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Kumba\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261118@arrjawa.blogspot.com
+DTSTAMP:20261118T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Rabu Pon - Kumba
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Kumba\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261119@arrjawa.blogspot.com
+DTSTAMP:20261119T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Kamis Wage - Kumba
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Kumba\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261120@arrjawa.blogspot.com
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Jumat Kliwon - Kumba
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Kumba\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261121@arrjawa.blogspot.com
+DTSTAMP:20261121T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Sabtu Legi - Kumba
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Kumba\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261122@arrjawa.blogspot.com
+DTSTAMP:20261122T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Ahad Pahing - Kumba
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Kumba\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261123@arrjawa.blogspot.com
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Senen Pon - Labuagu
+DESCRIPTION:Weton: Senen Pon\\nWuku: Labuagu\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261124@arrjawa.blogspot.com
+DTSTAMP:20261124T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Selasa Wage - Labuagu
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Labuagu\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261125@arrjawa.blogspot.com
+DTSTAMP:20261125T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Rabu Kliwon - Labuagu
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Labuagu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261126@arrjawa.blogspot.com
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Kamis Legi - Labuagu
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Labuagu\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261127@arrjawa.blogspot.com
+DTSTAMP:20261127T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Jumat Pahing - Labuagu
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Labuagu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261128@arrjawa.blogspot.com
+DTSTAMP:20261128T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Sabtu Pon - Labuagu
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Labuagu\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261129@arrjawa.blogspot.com
+DTSTAMP:20261129T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Ahad Wage - Labuagu
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Labuagu\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261130@arrjawa.blogspot.com
+DTSTAMP:20261130T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:Senen Kliwon - Karangbitu
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Karangbitu\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261201@arrjawa.blogspot.com
+DTSTAMP:20261201T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Selasa Legi - Karangbitu
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Karangbitu\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261202@arrjawa.blogspot.com
+DTSTAMP:20261202T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:Rabu Pahing - Karangbitu
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Karangbitu\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261203@arrjawa.blogspot.com
+DTSTAMP:20261203T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Kamis Pon - Karangbitu
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Karangbitu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261204@arrjawa.blogspot.com
+DTSTAMP:20261204T000000Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:Jumat Wage - Karangbitu
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Karangbitu\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261205@arrjawa.blogspot.com
+DTSTAMP:20261205T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:Sabtu Kliwon - Karangbitu
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Karangbitu\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261206@arrjawa.blogspot.com
+DTSTAMP:20261206T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Ahad Legi - Karangbitu
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Karangbitu\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261207@arrjawa.blogspot.com
+DTSTAMP:20261207T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Senen Pahing - Saptamangsa
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Saptamangsa\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261208@arrjawa.blogspot.com
+DTSTAMP:20261208T000000Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:Selasa Pon - Saptamangsa
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Saptamangsa\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261209@arrjawa.blogspot.com
+DTSTAMP:20261209T000000Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:Rabu Wage - Saptamangsa
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Saptamangsa\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261210@arrjawa.blogspot.com
+DTSTAMP:20261210T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Kamis Kliwon - Saptamangsa
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Saptamangsa\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261211@arrjawa.blogspot.com
+DTSTAMP:20261211T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Jumat Legi - Saptamangsa
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Saptamangsa\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261212@arrjawa.blogspot.com
+DTSTAMP:20261212T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Sabtu Pahing - Saptamangsa
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Saptamangsa\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261213@arrjawa.blogspot.com
+DTSTAMP:20261213T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Ahad Pon - Saptamangsa
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Saptamangsa\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261214@arrjawa.blogspot.com
+DTSTAMP:20261214T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:Senen Wage - Sagapenjalin
+DESCRIPTION:Weton: Senen Wage\\nWuku: Sagapenjalin\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261215@arrjawa.blogspot.com
+DTSTAMP:20261215T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Selasa Kliwon - Sagapenjalin
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Sagapenjalin\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261216@arrjawa.blogspot.com
+DTSTAMP:20261216T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:Rabu Legi - Sagapenjalin
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Sagapenjalin\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261217@arrjawa.blogspot.com
+DTSTAMP:20261217T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Kamis Pahing - Sagapenjalin
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Sagapenjalin\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261218@arrjawa.blogspot.com
+DTSTAMP:20261218T000000Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Jumat Pon - Sagapenjalin
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Sagapenjalin\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261219@arrjawa.blogspot.com
+DTSTAMP:20261219T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Sabtu Wage - Sagapenjalin
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Sagapenjalin\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261220@arrjawa.blogspot.com
+DTSTAMP:20261220T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Ahad Kliwon - Sagapenjalin
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Sagapenjalin\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261221@arrjawa.blogspot.com
+DTSTAMP:20261221T000000Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:Senen Legi - Kampakeningpati
+DESCRIPTION:Weton: Senen Legi\\nWuku: Kampakeningpati\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261222@arrjawa.blogspot.com
+DTSTAMP:20261222T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Selasa Pahing - Kampakeningpati
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Kampakeningpati\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261223@arrjawa.blogspot.com
+DTSTAMP:20261223T000000Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Rabu Pon - Kampakeningpati
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Kampakeningpati\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261224@arrjawa.blogspot.com
+DTSTAMP:20261224T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Kamis Wage - Kampakeningpati
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Kampakeningpati\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261225@arrjawa.blogspot.com
+DTSTAMP:20261225T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Jumat Kliwon - Kampakeningpati
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Kampakeningpati\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261226@arrjawa.blogspot.com
+DTSTAMP:20261226T000000Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:Sabtu Legi - Kampakeningpati
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Kampakeningpati\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261227@arrjawa.blogspot.com
+DTSTAMP:20261227T000000Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:Ahad Pahing - Kampakeningpati
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Kampakeningpati\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261228@arrjawa.blogspot.com
+DTSTAMP:20261228T000000Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:Senen Pon - Sungsang
+DESCRIPTION:Weton: Senen Pon\\nWuku: Sungsang\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261229@arrjawa.blogspot.com
+DTSTAMP:20261229T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Selasa Wage - Sungsang
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Sungsang\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261230@arrjawa.blogspot.com
+DTSTAMP:20261230T000000Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:Rabu Kliwon - Sungsang
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Sungsang\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20261231@arrjawa.blogspot.com
+DTSTAMP:20261231T000000Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:Kamis Legi - Sungsang
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Sungsang\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270101@arrjawa.blogspot.com
+DTSTAMP:20270101T000000Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Jumat Pahing - Sungsang
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Sungsang\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270102@arrjawa.blogspot.com
+DTSTAMP:20270102T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Sabtu Pon - Sungsang
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Sungsang\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270103@arrjawa.blogspot.com
+DTSTAMP:20270103T000000Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Ahad Wage - Sungsang
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Sungsang\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270104@arrjawa.blogspot.com
+DTSTAMP:20270104T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:Senen Kliwon - Langkir
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Langkir\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270105@arrjawa.blogspot.com
+DTSTAMP:20270105T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Selasa Legi - Langkir
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Langkir\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270106@arrjawa.blogspot.com
+DTSTAMP:20270106T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:Rabu Pahing - Langkir
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Langkir\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270107@arrjawa.blogspot.com
+DTSTAMP:20270107T000000Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Kamis Pon - Langkir
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Langkir\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270108@arrjawa.blogspot.com
+DTSTAMP:20270108T000000Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:Jumat Wage - Langkir
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Langkir\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270109@arrjawa.blogspot.com
+DTSTAMP:20270109T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Sabtu Kliwon - Langkir
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Langkir\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270110@arrjawa.blogspot.com
+DTSTAMP:20270110T000000Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Ahad Legi - Langkir
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Langkir\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270111@arrjawa.blogspot.com
+DTSTAMP:20270111T000000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:Senen Pahing - Mangir
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Mangir\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270112@arrjawa.blogspot.com
+DTSTAMP:20270112T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Selasa Pon - Mangir
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Mangir\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270113@arrjawa.blogspot.com
+DTSTAMP:20270113T000000Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:Rabu Wage - Mangir
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Mangir\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270114@arrjawa.blogspot.com
+DTSTAMP:20270114T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:Kamis Kliwon - Mangir
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Mangir\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270115@arrjawa.blogspot.com
+DTSTAMP:20270115T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Jumat Legi - Mangir
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Mangir\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270116@arrjawa.blogspot.com
+DTSTAMP:20270116T000000Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:Sabtu Pahing - Mangir
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Mangir\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270117@arrjawa.blogspot.com
+DTSTAMP:20270117T000000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Ahad Pon - Mangir
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Mangir\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270118@arrjawa.blogspot.com
+DTSTAMP:20270118T000000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Senen Wage - Sumber
+DESCRIPTION:Weton: Senen Wage\\nWuku: Sumber\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270119@arrjawa.blogspot.com
+DTSTAMP:20270119T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:Selasa Kliwon - Sumber
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Sumber\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270120@arrjawa.blogspot.com
+DTSTAMP:20270120T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Rabu Legi - Sumber
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Sumber\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270121@arrjawa.blogspot.com
+DTSTAMP:20270121T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Kamis Pahing - Sumber
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Sumber\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270122@arrjawa.blogspot.com
+DTSTAMP:20270122T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Jumat Pon - Sumber
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Sumber\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270123@arrjawa.blogspot.com
+DTSTAMP:20270123T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Sabtu Wage - Sumber
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Sumber\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270124@arrjawa.blogspot.com
+DTSTAMP:20270124T000000Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:Ahad Kliwon - Sumber
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Sumber\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270125@arrjawa.blogspot.com
+DTSTAMP:20270125T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:Senen Legi - Sungsang
+DESCRIPTION:Weton: Senen Legi\\nWuku: Sungsang\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270126@arrjawa.blogspot.com
+DTSTAMP:20270126T000000Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Selasa Pahing - Sungsang
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Sungsang\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270127@arrjawa.blogspot.com
+DTSTAMP:20270127T000000Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:Rabu Pon - Sungsang
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Sungsang\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270128@arrjawa.blogspot.com
+DTSTAMP:20270128T000000Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:Kamis Wage - Sungsang
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Sungsang\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270129@arrjawa.blogspot.com
+DTSTAMP:20270129T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Jumat Kliwon - Sungsang
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Sungsang\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270130@arrjawa.blogspot.com
+DTSTAMP:20270130T000000Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:Sabtu Legi - Sungsang
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Sungsang\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270131@arrjawa.blogspot.com
+DTSTAMP:20270131T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Ahad Pahing - Sungsang
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Sungsang\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270201@arrjawa.blogspot.com
+DTSTAMP:20270201T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:Senen Pon - Langkir
+DESCRIPTION:Weton: Senen Pon\\nWuku: Langkir\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270202@arrjawa.blogspot.com
+DTSTAMP:20270202T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Selasa Wage - Langkir
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Langkir\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270203@arrjawa.blogspot.com
+DTSTAMP:20270203T000000Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:Rabu Kliwon - Langkir
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Langkir\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270204@arrjawa.blogspot.com
+DTSTAMP:20270204T000000Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:Kamis Legi - Langkir
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Langkir\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270205@arrjawa.blogspot.com
+DTSTAMP:20270205T000000Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:Jumat Pahing - Langkir
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Langkir\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270206@arrjawa.blogspot.com
+DTSTAMP:20270206T000000Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:Sabtu Pon - Langkir
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Langkir\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270207@arrjawa.blogspot.com
+DTSTAMP:20270207T000000Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Ahad Wage - Langkir
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Langkir\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270208@arrjawa.blogspot.com
+DTSTAMP:20270208T000000Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:Senen Kliwon - Mangir
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Mangir\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270209@arrjawa.blogspot.com
+DTSTAMP:20270209T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:Selasa Legi - Mangir
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Mangir\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270210@arrjawa.blogspot.com
+DTSTAMP:20270210T000000Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:Rabu Pahing - Mangir
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Mangir\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270211@arrjawa.blogspot.com
+DTSTAMP:20270211T000000Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:Kamis Pon - Mangir
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Mangir\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270212@arrjawa.blogspot.com
+DTSTAMP:20270212T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:Jumat Wage - Mangir
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Mangir\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270213@arrjawa.blogspot.com
+DTSTAMP:20270213T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Sabtu Kliwon - Mangir
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Mangir\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270214@arrjawa.blogspot.com
+DTSTAMP:20270214T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:Ahad Legi - Mangir
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Mangir\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270215@arrjawa.blogspot.com
+DTSTAMP:20270215T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:Senen Pahing - Sumber
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Sumber\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270216@arrjawa.blogspot.com
+DTSTAMP:20270216T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:Selasa Pon - Sumber
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Sumber\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270217@arrjawa.blogspot.com
+DTSTAMP:20270217T000000Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Rabu Wage - Sumber
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Sumber\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270218@arrjawa.blogspot.com
+DTSTAMP:20270218T000000Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:Kamis Kliwon - Sumber
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Sumber\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270219@arrjawa.blogspot.com
+DTSTAMP:20270219T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:Jumat Legi - Sumber
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Sumber\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270220@arrjawa.blogspot.com
+DTSTAMP:20270220T000000Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:Sabtu Pahing - Sumber
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Sumber\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270221@arrjawa.blogspot.com
+DTSTAMP:20270221T000000Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:Ahad Pon - Sumber
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Sumber\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270222@arrjawa.blogspot.com
+DTSTAMP:20270222T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:Senen Wage - Wastu
+DESCRIPTION:Weton: Senen Wage\\nWuku: Wastu\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270223@arrjawa.blogspot.com
+DTSTAMP:20270223T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:Selasa Kliwon - Wastu
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Wastu\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270224@arrjawa.blogspot.com
+DTSTAMP:20270224T000000Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:Rabu Legi - Wastu
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Wastu\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270225@arrjawa.blogspot.com
+DTSTAMP:20270225T000000Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:Kamis Pahing - Wastu
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Wastu\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270226@arrjawa.blogspot.com
+DTSTAMP:20270226T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:Jumat Pon - Wastu
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Wastu\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270227@arrjawa.blogspot.com
+DTSTAMP:20270227T000000Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Sabtu Wage - Wastu
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Wastu\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270228@arrjawa.blogspot.com
+DTSTAMP:20270228T000000Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:Ahad Kliwon - Wastu
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Wastu\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270301@arrjawa.blogspot.com
+DTSTAMP:20270301T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:Senen Legi - Gumbreg
+DESCRIPTION:Weton: Senen Legi\\nWuku: Gumbreg\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270302@arrjawa.blogspot.com
+DTSTAMP:20270302T000000Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:Selasa Pahing - Gumbreg
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Gumbreg\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270303@arrjawa.blogspot.com
+DTSTAMP:20270303T000000Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:Rabu Pon - Gumbreg
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Gumbreg\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270304@arrjawa.blogspot.com
+DTSTAMP:20270304T000000Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:Kamis Wage - Gumbreg
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Gumbreg\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270305@arrjawa.blogspot.com
+DTSTAMP:20270305T000000Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:Jumat Kliwon - Gumbreg
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Gumbreg\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270306@arrjawa.blogspot.com
+DTSTAMP:20270306T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:Sabtu Legi - Gumbreg
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Gumbreg\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270307@arrjawa.blogspot.com
+DTSTAMP:20270307T000000Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:Ahad Pahing - Gumbreg
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Gumbreg\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270308@arrjawa.blogspot.com
+DTSTAMP:20270308T000000Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:Senen Pon - Warigalit
+DESCRIPTION:Weton: Senen Pon\\nWuku: Warigalit\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270309@arrjawa.blogspot.com
+DTSTAMP:20270309T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Selasa Wage - Warigalit
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Warigalit\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270310@arrjawa.blogspot.com
+DTSTAMP:20270310T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Rabu Kliwon - Warigalit
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Warigalit\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270311@arrjawa.blogspot.com
+DTSTAMP:20270311T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:Kamis Legi - Warigalit
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Warigalit\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270312@arrjawa.blogspot.com
+DTSTAMP:20270312T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:Jumat Pahing - Warigalit
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Warigalit\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270313@arrjawa.blogspot.com
+DTSTAMP:20270313T000000Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:Sabtu Pon - Warigalit
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Warigalit\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270314@arrjawa.blogspot.com
+DTSTAMP:20270314T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Ahad Wage - Warigalit
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Warigalit\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270315@arrjawa.blogspot.com
+DTSTAMP:20270315T000000Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:Senen Kliwon - Warijathil
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Warijathil\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270316@arrjawa.blogspot.com
+DTSTAMP:20270316T000000Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:Selasa Legi - Warijathil
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Warijathil\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270317@arrjawa.blogspot.com
+DTSTAMP:20270317T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:Rabu Pahing - Warijathil
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Warijathil\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270318@arrjawa.blogspot.com
+DTSTAMP:20270318T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:Kamis Pon - Warijathil
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Warijathil\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270319@arrjawa.blogspot.com
+DTSTAMP:20270319T000000Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:Jumat Wage - Warijathil
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Warijathil\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270320@arrjawa.blogspot.com
+DTSTAMP:20270320T000000Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:Sabtu Kliwon - Warijathil
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Warijathil\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270321@arrjawa.blogspot.com
+DTSTAMP:20270321T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:Ahad Legi - Warijathil
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Warijathil\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270322@arrjawa.blogspot.com
+DTSTAMP:20270322T000000Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:Senen Pahing - Tolu
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Tolu\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270323@arrjawa.blogspot.com
+DTSTAMP:20270323T000000Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:Selasa Pon - Tolu
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Tolu\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270324@arrjawa.blogspot.com
+DTSTAMP:20270324T000000Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:Rabu Wage - Tolu
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Tolu\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270325@arrjawa.blogspot.com
+DTSTAMP:20270325T000000Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:Kamis Kliwon - Tolu
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Tolu\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270326@arrjawa.blogspot.com
+DTSTAMP:20270326T000000Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:Jumat Legi - Tolu
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Tolu\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270327@arrjawa.blogspot.com
+DTSTAMP:20270327T000000Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:Sabtu Pahing - Tolu
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Tolu\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270328@arrjawa.blogspot.com
+DTSTAMP:20270328T000000Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:Ahad Pon - Tolu
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Tolu\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270329@arrjawa.blogspot.com
+DTSTAMP:20270329T000000Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:Senen Wage - Gajamina
+DESCRIPTION:Weton: Senen Wage\\nWuku: Gajamina\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270330@arrjawa.blogspot.com
+DTSTAMP:20270330T000000Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:Selasa Kliwon - Gajamina
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Gajamina\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270331@arrjawa.blogspot.com
+DTSTAMP:20270331T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:Rabu Legi - Gajamina
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Gajamina\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270401@arrjawa.blogspot.com
+DTSTAMP:20270401T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Kamis Pahing - Gajamina
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Gajamina\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270402@arrjawa.blogspot.com
+DTSTAMP:20270402T000000Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:Jumat Pon - Gajamina
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Gajamina\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270403@arrjawa.blogspot.com
+DTSTAMP:20270403T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:Sabtu Wage - Gajamina
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Gajamina\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270404@arrjawa.blogspot.com
+DTSTAMP:20270404T000000Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:Ahad Kliwon - Gajamina
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Gajamina\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270405@arrjawa.blogspot.com
+DTSTAMP:20270405T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:Senen Legi - Kurantil
+DESCRIPTION:Weton: Senen Legi\\nWuku: Kurantil\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270406@arrjawa.blogspot.com
+DTSTAMP:20270406T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Selasa Pahing - Kurantil
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Kurantil\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270407@arrjawa.blogspot.com
+DTSTAMP:20270407T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:Rabu Pon - Kurantil
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Kurantil\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270408@arrjawa.blogspot.com
+DTSTAMP:20270408T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:Kamis Wage - Kurantil
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Kurantil\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270409@arrjawa.blogspot.com
+DTSTAMP:20270409T000000Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:Jumat Kliwon - Kurantil
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Kurantil\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270410@arrjawa.blogspot.com
+DTSTAMP:20270410T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Sabtu Legi - Kurantil
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Kurantil\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270411@arrjawa.blogspot.com
+DTSTAMP:20270411T000000Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:Ahad Pahing - Kurantil
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Kurantil\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270412@arrjawa.blogspot.com
+DTSTAMP:20270412T000000Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:Senen Pon - Salahunan
+DESCRIPTION:Weton: Senen Pon\\nWuku: Salahunan\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270413@arrjawa.blogspot.com
+DTSTAMP:20270413T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Selasa Wage - Salahunan
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Salahunan\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270414@arrjawa.blogspot.com
+DTSTAMP:20270414T000000Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:Rabu Kliwon - Salahunan
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Salahunan\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270415@arrjawa.blogspot.com
+DTSTAMP:20270415T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Kamis Legi - Salahunan
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Salahunan\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270416@arrjawa.blogspot.com
+DTSTAMP:20270416T000000Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:Jumat Pahing - Salahunan
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Salahunan\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270417@arrjawa.blogspot.com
+DTSTAMP:20270417T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:Sabtu Pon - Salahunan
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Salahunan\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270418@arrjawa.blogspot.com
+DTSTAMP:20270418T000000Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:Ahad Wage - Salahunan
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Salahunan\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270419@arrjawa.blogspot.com
+DTSTAMP:20270419T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:Senen Kliwon - Gentini
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Gentini\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270420@arrjawa.blogspot.com
+DTSTAMP:20270420T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Selasa Legi - Gentini
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Gentini\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270421@arrjawa.blogspot.com
+DTSTAMP:20270421T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:Rabu Pahing - Gentini
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Gentini\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270422@arrjawa.blogspot.com
+DTSTAMP:20270422T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Kamis Pon - Gentini
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Gentini\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270423@arrjawa.blogspot.com
+DTSTAMP:20270423T000000Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:Jumat Wage - Gentini
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Gentini\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270424@arrjawa.blogspot.com
+DTSTAMP:20270424T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:Sabtu Kliwon - Gentini
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Gentini\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270425@arrjawa.blogspot.com
+DTSTAMP:20270425T000000Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:Ahad Legi - Gentini
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Gentini\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270426@arrjawa.blogspot.com
+DTSTAMP:20270426T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:Senen Pahing - Lintang
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Lintang\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270427@arrjawa.blogspot.com
+DTSTAMP:20270427T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Selasa Pon - Lintang
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Lintang\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270428@arrjawa.blogspot.com
+DTSTAMP:20270428T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:Rabu Wage - Lintang
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Lintang\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270429@arrjawa.blogspot.com
+DTSTAMP:20270429T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Kamis Kliwon - Lintang
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Lintang\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270430@arrjawa.blogspot.com
+DTSTAMP:20270430T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:Jumat Legi - Lintang
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Lintang\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270501@arrjawa.blogspot.com
+DTSTAMP:20270501T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:Sabtu Pahing - Lintang
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Lintang\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270502@arrjawa.blogspot.com
+DTSTAMP:20270502T000000Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:Ahad Pon - Lintang
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Lintang\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270503@arrjawa.blogspot.com
+DTSTAMP:20270503T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Senen Wage - Pandhawa
+DESCRIPTION:Weton: Senen Wage\\nWuku: Pandhawa\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270504@arrjawa.blogspot.com
+DTSTAMP:20270504T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Selasa Kliwon - Pandhawa
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Pandhawa\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270505@arrjawa.blogspot.com
+DTSTAMP:20270505T000000Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:Rabu Legi - Pandhawa
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Pandhawa\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270506@arrjawa.blogspot.com
+DTSTAMP:20270506T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Kamis Pahing - Pandhawa
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Pandhawa\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270507@arrjawa.blogspot.com
+DTSTAMP:20270507T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:Jumat Pon - Pandhawa
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Pandhawa\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270508@arrjawa.blogspot.com
+DTSTAMP:20270508T000000Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:Sabtu Wage - Pandhawa
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Pandhawa\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270509@arrjawa.blogspot.com
+DTSTAMP:20270509T000000Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:Ahad Kliwon - Pandhawa
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Pandhawa\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270510@arrjawa.blogspot.com
+DTSTAMP:20270510T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:Senen Legi - Pandawa
+DESCRIPTION:Weton: Senen Legi\\nWuku: Pandawa\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270511@arrjawa.blogspot.com
+DTSTAMP:20270511T000000Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:Selasa Pahing - Pandawa
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Pandawa\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270512@arrjawa.blogspot.com
+DTSTAMP:20270512T000000Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:Rabu Pon - Pandawa
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Pandawa\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270513@arrjawa.blogspot.com
+DTSTAMP:20270513T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Kamis Wage - Pandawa
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Pandawa\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270514@arrjawa.blogspot.com
+DTSTAMP:20270514T000000Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:Jumat Kliwon - Pandawa
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Pandawa\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270515@arrjawa.blogspot.com
+DTSTAMP:20270515T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Sabtu Legi - Pandawa
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Pandawa\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270516@arrjawa.blogspot.com
+DTSTAMP:20270516T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:Ahad Pahing - Pandawa
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Pandawa\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270517@arrjawa.blogspot.com
+DTSTAMP:20270517T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:Senen Pon - Wulanhayu
+DESCRIPTION:Weton: Senen Pon\\nWuku: Wulanhayu\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270518@arrjawa.blogspot.com
+DTSTAMP:20270518T000000Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:Selasa Wage - Wulanhayu
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Wulanhayu\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270519@arrjawa.blogspot.com
+DTSTAMP:20270519T000000Z
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+SUMMARY:Rabu Kliwon - Wulanhayu
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Wulanhayu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270520@arrjawa.blogspot.com
+DTSTAMP:20270520T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:Kamis Legi - Wulanhayu
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Wulanhayu\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270521@arrjawa.blogspot.com
+DTSTAMP:20270521T000000Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:Jumat Pahing - Wulanhayu
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Wulanhayu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270522@arrjawa.blogspot.com
+DTSTAMP:20270522T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:Sabtu Pon - Wulanhayu
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Wulanhayu\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270523@arrjawa.blogspot.com
+DTSTAMP:20270523T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:Ahad Wage - Wulanhayu
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Wulanhayu\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270524@arrjawa.blogspot.com
+DTSTAMP:20270524T000000Z
+DTSTART;VALUE=DATE:20270524
+DTEND;VALUE=DATE:20270525
+SUMMARY:Senen Kliwon - Madangkungan
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Madangkungan\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270525@arrjawa.blogspot.com
+DTSTAMP:20270525T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:Selasa Legi - Madangkungan
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Madangkungan\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270526@arrjawa.blogspot.com
+DTSTAMP:20270526T000000Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:Rabu Pahing - Madangkungan
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Madangkungan\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270527@arrjawa.blogspot.com
+DTSTAMP:20270527T000000Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:Kamis Pon - Madangkungan
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Madangkungan\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270528@arrjawa.blogspot.com
+DTSTAMP:20270528T000000Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:Jumat Wage - Madangkungan
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Madangkungan\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270529@arrjawa.blogspot.com
+DTSTAMP:20270529T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:Sabtu Kliwon - Madangkungan
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Madangkungan\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270530@arrjawa.blogspot.com
+DTSTAMP:20270530T000000Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:Ahad Legi - Madangkungan
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Madangkungan\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270531@arrjawa.blogspot.com
+DTSTAMP:20270531T000000Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:Senen Pahing - Mahameru
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Mahameru\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270601@arrjawa.blogspot.com
+DTSTAMP:20270601T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:Selasa Pon - Mahameru
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Mahameru\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270602@arrjawa.blogspot.com
+DTSTAMP:20270602T000000Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:Rabu Wage - Mahameru
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Mahameru\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270603@arrjawa.blogspot.com
+DTSTAMP:20270603T000000Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270604
+SUMMARY:Kamis Kliwon - Mahameru
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Mahameru\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270604@arrjawa.blogspot.com
+DTSTAMP:20270604T000000Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:Jumat Legi - Mahameru
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Mahameru\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270605@arrjawa.blogspot.com
+DTSTAMP:20270605T000000Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:Sabtu Pahing - Mahameru
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Mahameru\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270606@arrjawa.blogspot.com
+DTSTAMP:20270606T000000Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:Ahad Pon - Mahameru
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Mahameru\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270607@arrjawa.blogspot.com
+DTSTAMP:20270607T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+SUMMARY:Senen Wage - Pawukon
+DESCRIPTION:Weton: Senen Wage\\nWuku: Pawukon\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270608@arrjawa.blogspot.com
+DTSTAMP:20270608T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:Selasa Kliwon - Pawukon
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Pawukon\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270609@arrjawa.blogspot.com
+DTSTAMP:20270609T000000Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:Rabu Legi - Pawukon
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Pawukon\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270610@arrjawa.blogspot.com
+DTSTAMP:20270610T000000Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:Kamis Pahing - Pawukon
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Pawukon\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270611@arrjawa.blogspot.com
+DTSTAMP:20270611T000000Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:Jumat Pon - Pawukon
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Pawukon\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270612@arrjawa.blogspot.com
+DTSTAMP:20270612T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Sabtu Wage - Pawukon
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Pawukon\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270613@arrjawa.blogspot.com
+DTSTAMP:20270613T000000Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:Ahad Kliwon - Pawukon
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Pawukon\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270614@arrjawa.blogspot.com
+DTSTAMP:20270614T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:Senen Legi - Kumba
+DESCRIPTION:Weton: Senen Legi\\nWuku: Kumba\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270615@arrjawa.blogspot.com
+DTSTAMP:20270615T000000Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Selasa Pahing - Kumba
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Kumba\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270616@arrjawa.blogspot.com
+DTSTAMP:20270616T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:Rabu Pon - Kumba
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Kumba\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270617@arrjawa.blogspot.com
+DTSTAMP:20270617T000000Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:Kamis Wage - Kumba
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Kumba\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270618@arrjawa.blogspot.com
+DTSTAMP:20270618T000000Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:Jumat Kliwon - Kumba
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Kumba\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270619@arrjawa.blogspot.com
+DTSTAMP:20270619T000000Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:Sabtu Legi - Kumba
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Kumba\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270620@arrjawa.blogspot.com
+DTSTAMP:20270620T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:Ahad Pahing - Kumba
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Kumba\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270621@arrjawa.blogspot.com
+DTSTAMP:20270621T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:Senen Pon - Labuagu
+DESCRIPTION:Weton: Senen Pon\\nWuku: Labuagu\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270622@arrjawa.blogspot.com
+DTSTAMP:20270622T000000Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:Selasa Wage - Labuagu
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Labuagu\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270623@arrjawa.blogspot.com
+DTSTAMP:20270623T000000Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:Rabu Kliwon - Labuagu
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Labuagu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270624@arrjawa.blogspot.com
+DTSTAMP:20270624T000000Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:Kamis Legi - Labuagu
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Labuagu\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270625@arrjawa.blogspot.com
+DTSTAMP:20270625T000000Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:Jumat Pahing - Labuagu
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Labuagu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270626@arrjawa.blogspot.com
+DTSTAMP:20270626T000000Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:Sabtu Pon - Labuagu
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Labuagu\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270627@arrjawa.blogspot.com
+DTSTAMP:20270627T000000Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:Ahad Wage - Labuagu
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Labuagu\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270628@arrjawa.blogspot.com
+DTSTAMP:20270628T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:Senen Kliwon - Karangbitu
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Karangbitu\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270629@arrjawa.blogspot.com
+DTSTAMP:20270629T000000Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:Selasa Legi - Karangbitu
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Karangbitu\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270630@arrjawa.blogspot.com
+DTSTAMP:20270630T000000Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:Rabu Pahing - Karangbitu
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Karangbitu\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270701@arrjawa.blogspot.com
+DTSTAMP:20270701T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Kamis Pon - Karangbitu
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Karangbitu\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270702@arrjawa.blogspot.com
+DTSTAMP:20270702T000000Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:Jumat Wage - Karangbitu
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Karangbitu\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270703@arrjawa.blogspot.com
+DTSTAMP:20270703T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:Sabtu Kliwon - Karangbitu
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Karangbitu\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270704@arrjawa.blogspot.com
+DTSTAMP:20270704T000000Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:Ahad Legi - Karangbitu
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Karangbitu\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270705@arrjawa.blogspot.com
+DTSTAMP:20270705T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:Senen Pahing - Saptamangsa
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Saptamangsa\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270706@arrjawa.blogspot.com
+DTSTAMP:20270706T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270707
+SUMMARY:Selasa Pon - Saptamangsa
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Saptamangsa\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270707@arrjawa.blogspot.com
+DTSTAMP:20270707T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+SUMMARY:Rabu Wage - Saptamangsa
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Saptamangsa\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270708@arrjawa.blogspot.com
+DTSTAMP:20270708T000000Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:Kamis Kliwon - Saptamangsa
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Saptamangsa\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270709@arrjawa.blogspot.com
+DTSTAMP:20270709T000000Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:Jumat Legi - Saptamangsa
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Saptamangsa\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270710@arrjawa.blogspot.com
+DTSTAMP:20270710T000000Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270711
+SUMMARY:Sabtu Pahing - Saptamangsa
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Saptamangsa\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270711@arrjawa.blogspot.com
+DTSTAMP:20270711T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:Ahad Pon - Saptamangsa
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Saptamangsa\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270712@arrjawa.blogspot.com
+DTSTAMP:20270712T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:Senen Wage - Sagapenjalin
+DESCRIPTION:Weton: Senen Wage\\nWuku: Sagapenjalin\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270713@arrjawa.blogspot.com
+DTSTAMP:20270713T000000Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:Selasa Kliwon - Sagapenjalin
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Sagapenjalin\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270714@arrjawa.blogspot.com
+DTSTAMP:20270714T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:Rabu Legi - Sagapenjalin
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Sagapenjalin\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270715@arrjawa.blogspot.com
+DTSTAMP:20270715T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:Kamis Pahing - Sagapenjalin
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Sagapenjalin\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270716@arrjawa.blogspot.com
+DTSTAMP:20270716T000000Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:Jumat Pon - Sagapenjalin
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Sagapenjalin\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270717@arrjawa.blogspot.com
+DTSTAMP:20270717T000000Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:Sabtu Wage - Sagapenjalin
+DESCRIPTION:Weton: Sabtu Wage\\nWuku: Sagapenjalin\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270718@arrjawa.blogspot.com
+DTSTAMP:20270718T000000Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+SUMMARY:Ahad Kliwon - Sagapenjalin
+DESCRIPTION:Weton: Ahad Kliwon\\nWuku: Sagapenjalin\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270719@arrjawa.blogspot.com
+DTSTAMP:20270719T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:Senen Legi - Kampakeningpati
+DESCRIPTION:Weton: Senen Legi\\nWuku: Kampakeningpati\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270720@arrjawa.blogspot.com
+DTSTAMP:20270720T000000Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:Selasa Pahing - Kampakeningpati
+DESCRIPTION:Weton: Selasa Pahing\\nWuku: Kampakeningpati\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270721@arrjawa.blogspot.com
+DTSTAMP:20270721T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:Rabu Pon - Kampakeningpati
+DESCRIPTION:Weton: Rabu Pon\\nWuku: Kampakeningpati\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270722@arrjawa.blogspot.com
+DTSTAMP:20270722T000000Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:Kamis Wage - Kampakeningpati
+DESCRIPTION:Weton: Kamis Wage\\nWuku: Kampakeningpati\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270723@arrjawa.blogspot.com
+DTSTAMP:20270723T000000Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:Jumat Kliwon - Kampakeningpati
+DESCRIPTION:Weton: Jumat Kliwon\\nWuku: Kampakeningpati\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270724@arrjawa.blogspot.com
+DTSTAMP:20270724T000000Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:Sabtu Legi - Kampakeningpati
+DESCRIPTION:Weton: Sabtu Legi\\nWuku: Kampakeningpati\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270725@arrjawa.blogspot.com
+DTSTAMP:20270725T000000Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:Ahad Pahing - Kampakeningpati
+DESCRIPTION:Weton: Ahad Pahing\\nWuku: Kampakeningpati\\nNeptu: 14\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270726@arrjawa.blogspot.com
+DTSTAMP:20270726T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:Senen Pon - Sungsang
+DESCRIPTION:Weton: Senen Pon\\nWuku: Sungsang\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270727@arrjawa.blogspot.com
+DTSTAMP:20270727T000000Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:Selasa Wage - Sungsang
+DESCRIPTION:Weton: Selasa Wage\\nWuku: Sungsang\\nNeptu: 7\\nNeton: 7 - Pegat\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270728@arrjawa.blogspot.com
+DTSTAMP:20270728T000000Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270729
+SUMMARY:Rabu Kliwon - Sungsang
+DESCRIPTION:Weton: Rabu Kliwon\\nWuku: Sungsang\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270729@arrjawa.blogspot.com
+DTSTAMP:20270729T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:Kamis Legi - Sungsang
+DESCRIPTION:Weton: Kamis Legi\\nWuku: Sungsang\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270730@arrjawa.blogspot.com
+DTSTAMP:20270730T000000Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:Jumat Pahing - Sungsang
+DESCRIPTION:Weton: Jumat Pahing\\nWuku: Sungsang\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270731@arrjawa.blogspot.com
+DTSTAMP:20270731T000000Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:Sabtu Pon - Sungsang
+DESCRIPTION:Weton: Sabtu Pon\\nWuku: Sungsang\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270801@arrjawa.blogspot.com
+DTSTAMP:20270801T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:Ahad Wage - Sungsang
+DESCRIPTION:Weton: Ahad Wage\\nWuku: Sungsang\\nNeptu: 9\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270802@arrjawa.blogspot.com
+DTSTAMP:20270802T000000Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:Senen Kliwon - Langkir
+DESCRIPTION:Weton: Senen Kliwon\\nWuku: Langkir\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270803@arrjawa.blogspot.com
+DTSTAMP:20270803T000000Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:Selasa Legi - Langkir
+DESCRIPTION:Weton: Selasa Legi\\nWuku: Langkir\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270804@arrjawa.blogspot.com
+DTSTAMP:20270804T000000Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:Rabu Pahing - Langkir
+DESCRIPTION:Weton: Rabu Pahing\\nWuku: Langkir\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270805@arrjawa.blogspot.com
+DTSTAMP:20270805T000000Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270806
+SUMMARY:Kamis Pon - Langkir
+DESCRIPTION:Weton: Kamis Pon\\nWuku: Langkir\\nNeptu: 15\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270806@arrjawa.blogspot.com
+DTSTAMP:20270806T000000Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270807
+SUMMARY:Jumat Wage - Langkir
+DESCRIPTION:Weton: Jumat Wage\\nWuku: Langkir\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270807@arrjawa.blogspot.com
+DTSTAMP:20270807T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:Sabtu Kliwon - Langkir
+DESCRIPTION:Weton: Sabtu Kliwon\\nWuku: Langkir\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270808@arrjawa.blogspot.com
+DTSTAMP:20270808T000000Z
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+SUMMARY:Ahad Legi - Langkir
+DESCRIPTION:Weton: Ahad Legi\\nWuku: Langkir\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270809@arrjawa.blogspot.com
+DTSTAMP:20270809T000000Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20270810
+SUMMARY:Senen Pahing - Mangir
+DESCRIPTION:Weton: Senen Pahing\\nWuku: Mangir\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270810@arrjawa.blogspot.com
+DTSTAMP:20270810T000000Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:Selasa Pon - Mangir
+DESCRIPTION:Weton: Selasa Pon\\nWuku: Mangir\\nNeptu: 10\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270811@arrjawa.blogspot.com
+DTSTAMP:20270811T000000Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:Rabu Wage - Mangir
+DESCRIPTION:Weton: Rabu Wage\\nWuku: Mangir\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270812@arrjawa.blogspot.com
+DTSTAMP:20270812T000000Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:Kamis Kliwon - Mangir
+DESCRIPTION:Weton: Kamis Kliwon\\nWuku: Mangir\\nNeptu: 16\\nNeton: 2 - Jodoh\\nArti: Baik untuk pernikahan & usaha
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270813@arrjawa.blogspot.com
+DTSTAMP:20270813T000000Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:Jumat Legi - Mangir
+DESCRIPTION:Weton: Jumat Legi\\nWuku: Mangir\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270814@arrjawa.blogspot.com
+DTSTAMP:20270814T000000Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:Sabtu Pahing - Mangir
+DESCRIPTION:Weton: Sabtu Pahing\\nWuku: Mangir\\nNeptu: 18\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270815@arrjawa.blogspot.com
+DTSTAMP:20270815T000000Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:Ahad Pon - Mangir
+DESCRIPTION:Weton: Ahad Pon\\nWuku: Mangir\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270816@arrjawa.blogspot.com
+DTSTAMP:20270816T000000Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:Senen Wage - Sumber
+DESCRIPTION:Weton: Senen Wage\\nWuku: Sumber\\nNeptu: 8\\nNeton: 1 - Mati\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270817@arrjawa.blogspot.com
+DTSTAMP:20270817T000000Z
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270818
+SUMMARY:Selasa Kliwon - Sumber
+DESCRIPTION:Weton: Selasa Kliwon\\nWuku: Sumber\\nNeptu: 11\\nNeton: 4 - Cerai\\nArti: Tidak baik\, hindari
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270818@arrjawa.blogspot.com
+DTSTAMP:20270818T000000Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:Rabu Legi - Sumber
+DESCRIPTION:Weton: Rabu Legi\\nWuku: Sumber\\nNeptu: 12\\nNeton: 5 - Prihatin\\nArti: Perlu pertimbangan matang
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270819@arrjawa.blogspot.com
+DTSTAMP:20270819T000000Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270820
+SUMMARY:Kamis Pahing - Sumber
+DESCRIPTION:Weton: Kamis Pahing\\nWuku: Sumber\\nNeptu: 17\\nNeton: 3 - Selamat\\nArti: Cukup baik tergantung konteks
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:kalender-jawa-20270820@arrjawa.blogspot.com
+DTSTAMP:20270820T000000Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:Jumat Pon - Sumber
+DESCRIPTION:Weton: Jumat Pon\\nWuku: Sumber\\nNeptu: 13\\nNeton: 6 - Lancar\\nArti: Baik untuk segala urusan
+LOCATION:Blitar, Indonesia
+CATEGORIES:Kalender Jawa
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
