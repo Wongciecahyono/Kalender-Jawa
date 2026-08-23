@@ -7,6 +7,7 @@ Kalender interaktif berbasis web untuk menampilkan weton, pasaran, dan tanggal M
 - Navigasi tahun (dropdown 30 tahun ke belakang, 20 tahun ke depan)
 - Navigasi bulan (dropdown Jan–Des)
 - Tampilan weton setiap hari (Minggu Legi, Senin Pon, dll)
+- Tampilan perhitungan selamatan orang meninggal dam bayi bisa dilihat dengan akses langsung tautan di bawah 
 - **Ekspor ICS** untuk satu tahun penuh → cocok untuk Google Calendar / iCal
 
 ## 🚀 Demo
