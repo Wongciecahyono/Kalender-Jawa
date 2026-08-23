@@ -568,7 +568,7 @@
         </div>
     </div>
 
-    <!-- KONTEN TAB SELAMATAN (Meninggal) -->
+    <!-- KONTEN TAB SELAMATAN MENINGGAL -->
     <div id="tab-selamatan" class="tab-content">
         <div class="selamatan">
             <div class="form-group">
@@ -593,7 +593,8 @@
     </div>
 
     <div class="footer">
-        ⚡ Satu file <strong>.ICS</strong> untuk satu tahun penuh (365 hari) • 
+        ⚡ Rentang tahun: <strong>1970 – 2030</strong> • 
+        Ekspor ICS untuk satu tahun penuh (365/366 hari) • 
         Cocok untuk Google Calendar / iCal
     </div>
 </div>
@@ -915,7 +916,6 @@
         const day = parseInt(parts[2]);
         const lahir = new Date(Date.UTC(year, month, day));
 
-        // Daftar selamatan: [nama, selisih_hari] (minus = sebelum lahir, plus = setelah)
         const daftar = [
             { nama: '4 bulanan (kehamilan)', hari: -120 },
             { nama: '7 bulanan (kehamilan)', hari: -210 },
@@ -948,7 +948,6 @@
     function tampilkanSelamatanBayi(tanggal) {
         const data = hitungSelamatanBayi(tanggal);
         let html = '';
-        // Kategori: Kehamilan, Lahir, Pasca Lahir
         const kategori = ['Kehamilan', 'Lahir', 'Pasca Lahir'];
         kategori.forEach(kat => {
             const items = data.filter(d => d.kategori === kat);
@@ -978,15 +977,15 @@
     }
 
     // ============================================================
-    //  9. POPULATE DROPDOWN
+    //  9. POPULATE DROPDOWN (RENTANG 1970 – 2030)
     // ============================================================
     function populateDropdowns() {
         const yearSelect = document.getElementById('yearSelect');
         const monthSelect = document.getElementById('monthSelect');
 
-        const now = new Date().getFullYear();
-        const startYear = now - 30;
-        const endYear = now + 20;
+        // RENTANG TAHUN FIX: 1970 – 2030
+        const startYear = 1970;
+        const endYear = 2030;
 
         yearSelect.innerHTML = '';
         for (let y = startYear; y <= endYear; y++) {
@@ -1140,7 +1139,8 @@
     document.getElementById('monthSelect').value = 7;
     renderCalendar(2026, 7);
 
-    console.log('✅ Kalender Jawa dengan 4 tab: Kalender, Kalkulator, Selamatan Meninggal, Selamatan Bayi');
+    console.log('✅ Rentang tahun: 1970 – 2030');
+    console.log('✅ Kalender Jawa siap digunakan.');
 </script>
 </body>
 </html>
