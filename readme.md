@@ -15,6 +15,7 @@ Akses langsung: https://wongciecahyono.github.io/Kalender-Jawa/
 ## 📂 Teknologi
 - HTML + CSS + JavaScript murni (tanpa framework)
 - Perhitungan berbasis patokan **1 Januari 2000 = Sabtu Legi**
+- Perhitungan di sini menggunakan pembagi 7 atau bisa dikatakan perhitungan neptu perjodohan
 
 ## 📜 Lisensi
 MIT
