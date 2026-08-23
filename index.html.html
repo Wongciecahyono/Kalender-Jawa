@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalender Jawa - Weton & Pasaran</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: #f2e8d5;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: #fffbf2;
+            border-radius: 24px;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+            padding: 24px 20px 32px;
+            border: 1px solid #dcc9b0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            color: #4a3520;
+            letter-spacing: 2px;
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7a5d42;
+            font-size: 14px;
+            margin-bottom: 18px;
+            border-bottom: 2px dashed #dcc9b0;
+            padding-bottom: 12px;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+        }
+        .nav-group {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: #e5d5be;
+            padding: 4px 12px 4px 8px;
+            border-radius: 40px;
+        }
+        .nav-group select {
+            background: transparent;
+            border: none;
+            font-weight: 700;
+            font-size: 18px;
+            color: #3d2b1a;
+            cursor: pointer;
+            outline: none;
+            padding: 4px 0;
+            font-family: inherit;
+            min-width: 80px;
+        }
+        .nav-group select option {
+            background: #fffbf2;
+            color: #3d2b1a;
+            font-weight: 600;
+        }
+        .nav-group .month-select {
+            min-width: 110px;
+        }
+        .nav button {
+            background: #8b6b4c;
+            border: none;
+            color: white;
+            font-size: 16px;
+            padding: 4px 14px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: 0.2s;
+            border: 1px solid #6b4f34;
+            line-height: 1.6;
+            white-space: nowrap;
+        }
+        .nav button:hover {
+            background: #6b4f34;
+            transform: scale(1.03);
+        }
+        .nav button.today-btn {
+            background: #b08968;
+            font-size: 13px;
+            padding: 4px 16px;
+        }
+        .nav button.today-btn:hover {
+            background: #8b6b4c;
+        }
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 6px;
+            margin-top: 10px;
+        }
+        .day-header {
+            font-weight: 700;
+            text-align: center;
+            font-size: 14px;
+            color: #4a3520;
+            background: #e5d5be;
+            padding: 8px 0;
+            border-radius: 12px;
+            letter-spacing: 1px;
+        }
+        .cell {
+            background: #fffdf7;
+            border-radius: 14px;
+            padding: 8px 4px;
+            text-align: center;
+            border: 1px solid #ede3d2;
+            transition: 0.15s;
+            min-height: 68px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .cell .date {
+            font-size: 22px;
+            font-weight: 700;
+            color: #2b1d10;
+            line-height: 1.2;
+        }
+        .cell .pasaran {
+            font-size: 12px;
+            font-weight: 600;
+            color: #7a5d42;
+            background: #f4ebd0;
+            padding: 1px 8px;
+            border-radius: 30px;
+            margin-top: 2px;
+            display: inline-block;
+            letter-spacing: 0.5px;
+        }
+        .cell .weton {
+            font-size: 11px;
+            color: #4a3520;
+            font-weight: 500;
+            margin-top: 1px;
+        }
+        .cell.today {
+            background: #d4b08c;
+            border-color: #8b6b4c;
+            box-shadow: 0 0 0 2px #6b4f34;
+        }
+        .cell.today .date {
+            color: #fff;
+        }
+        .cell.today .pasaran {
+            background: #fffbf2;
+            color: #4a3520;
+        }
+        .cell.today .weton {
+            color: #fff;
+        }
+        .cell.other-month {
+            opacity: 0.35;
+        }
+        .cell.weekend {
+            background: #fcf4e8;
+        }
+        .export-area {
+            margin-top: 24px;
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .export-area button {
+            background: #2d5a3a;
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 12px 32px;
+            border-radius: 40px;
+            cursor: pointer;
+            transition: 0.2s;
+            border: 1px solid #1d402a;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .export-area button:hover {
+            background: #1d402a;
+            transform: scale(1.02);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 13px;
+            color: #a0846a;
+            border-top: 1px solid #ede3d2;
+            padding-top: 16px;
+        }
+        .footer strong {
+            color: #4a3520;
+        }
+
+        @media (max-width: 500px) {
+            .container {
+                padding: 12px 8px;
+            }
+            .cell {
+                min-height: 56px;
+                padding: 4px 2px;
+            }
+            .cell .date {
+                font-size: 17px;
+            }
+            .cell .pasaran {
+                font-size: 9px;
+                padding: 0 5px;
+            }
+            .nav {
+                gap: 6px;
+            }
+            .nav-group {
+                padding: 2px 8px;
+            }
+            .nav-group select {
+                font-size: 15px;
+                min-width: 60px;
+            }
+            .nav-group .month-select {
+                min-width: 80px;
+            }
+            .nav button {
+                font-size: 13px;
+                padding: 2px 10px;
+            }
+            .export-area button {
+                font-size: 14px;
+                padding: 10px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📅 Kalender Jawa</h1>
+        <div class="subtitle">Weton • Pasaran • Masehi • <span style="color:#b35f2b;">1 Jan 2000 = Sabtu Legi</span></div>
+
+        <!-- Navigasi -->
+        <div class="nav">
+            <!-- PILIH TAHUN -->
+            <div class="nav-group">
+                <button id="yearPrevBtn">◀◀</button>
+                <select id="yearSelect" class="year-select"></select>
+                <button id="yearNextBtn">▶▶</button>
+            </div>
+
+            <!-- PILIH BULAN -->
+            <div class="nav-group">
+                <button id="monthPrevBtn">◀</button>
+                <select id="monthSelect" class="month-select"></select>
+                <button id="monthNextBtn">▶</button>
+            </div>
+
+            <button class="today-btn" id="todayBtn">● Hari Ini</button>
+        </div>
+
+        <!-- Grid Kalender -->
+        <div class="calendar" id="calendarGrid"></div>
+
+        <!-- Ekspor -->
+        <div class="export-area">
+            <button id="exportYearIcs">📤 Ekspor ICS Tahun <span id="exportYearLabel">2026</span></button>
+        </div>
+
+        <div class="footer">
+            ⚡ Satu file <strong>.ICS</strong> untuk satu tahun penuh (365 hari) • 
+            Cocok untuk Google Calendar / iCal
+        </div>
+    </div>
+
+    <script>
+        // ----- PATOKAN TETAP (SUDAH BENAR) -----
+        const PASARAN = ['Legi', 'Pahing', 'Pon', 'Wage', 'Kliwon'];
+        const NAMA_HARI = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+        const NAMA_BULAN = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni',
+            'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'
+        ];
+        const NAMA_BULAN_PENDEX = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'];
+        // Patokan: 1 Januari 2000 = Sabtu Legi (index pasaran 0)
+        const BASE_DATE = new Date(Date.UTC(2000, 0, 1));
+
+        // ----- FUNGSI INTI -----
+        function getJawaInfo(year, month, day) {
+            const target = new Date(Date.UTC(year, month, day));
+            const diffMs = target.getTime() - BASE_DATE.getTime();
+            const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+            const pasaranIdx = ((diffDays % 5) + 5) % 5;
+            const hariIdx = target.getUTCDay();
+            return {
+                hari: NAMA_HARI[hariIdx],
+                pasaran: PASARAN[pasaranIdx],
+                weton: NAMA_HARI[hariIdx] + ' ' + PASARAN[pasaranIdx]
+            };
+        }
+
+        // ----- RENDER KALENDER BULANAN -----
+        function renderCalendar(year, month) {
+            const grid = document.getElementById('calendarGrid');
+            document.getElementById('exportYearLabel').textContent = year;
+
+            // Sinkronkan dropdown
+            document.getElementById('yearSelect').value = year;
+            document.getElementById('monthSelect').value = month;
+
+            const firstDay = new Date(Date.UTC(year, month, 1)).getUTCDay();
+            const daysInMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
+            const daysInPrevMonth = new Date(Date.UTC(year, month, 0)).getUTCDate();
+
+            let startOffset = (firstDay === 0) ? 6 : firstDay - 1;
+
+            let html = '';
+            const headerHari = ['Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab', 'Min'];
+            headerHari.forEach(h => {
+                html += `<div class="day-header">${h}</div>`;
+            });
+
+            const today = new Date();
+            const todayUTC = new Date(Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()));
+
+            // Kosong awal
+            for (let i = 0; i < startOffset; i++) {
+                const prevDate = daysInPrevMonth - startOffset + i + 1;
+                html += `<div class="cell other-month"><div class="date">${prevDate}</div></div>`;
+            }
+
+            // Tanggal bulan ini
+            for (let d = 1; d <= daysInMonth; d++) {
+                const info = getJawaInfo(year, month, d);
+                const currentDate = new Date(Date.UTC(year, month, d));
+                const isToday = currentDate.getTime() === todayUTC.getTime();
+                const dayIdx = currentDate.getUTCDay();
+                const isWeekend = (dayIdx === 5 || dayIdx === 6);
+
+                let classes = 'cell';
+                if (isToday) classes += ' today';
+                if (isWeekend) classes += ' weekend';
+
+                html += `
+                    <div class="${classes}">
+                        <div class="date">${d}</div>
+                        <span class="pasaran">${info.pasaran}</span>
+                        <div class="weton">${info.hari}</div>
+                    </div>
+                `;
+            }
+
+            // Kosong akhir
+            const totalCells = startOffset + daysInMonth;
+            const remaining = (7 - (totalCells % 7)) % 7;
+            for (let i = 1; i <= remaining; i++) {
+                html += `<div class="cell other-month"><div class="date">${i}</div></div>`;
+            }
+
+            grid.innerHTML = html;
+        }
+
+        // ----- GENERATE ICS SATU TAHUN PENUH -----
+        function generateYearICS(year) {
+            let ics = [];
+            ics.push('BEGIN:VCALENDAR');
+            ics.push('VERSION:2.0');
+            ics.push('PRODID:-//Kalender Jawa//v1.0//ID');
+            ics.push('CALSCALE:GREGORIAN');
+            ics.push('X-WR-CALNAME;VALUE=TEXT:Kalender Jawa ' + year);
+            ics.push('X-WR-CALDESC;VALUE=TEXT:Weton dan Pasaran untuk tahun ' + year);
+
+            for (let m = 0; m < 12; m++) {
+                const daysInMonth = new Date(Date.UTC(year, m + 1, 0)).getUTCDate();
+                for (let d = 1; d <= daysInMonth; d++) {
+                    const info = getJawaInfo(year, m, d);
+                    const y = year;
+                    const mo = String(m + 1).padStart(2, '0');
+                    const day = String(d).padStart(2, '0');
+                    const dateStr = `${y}${mo}${day}`;
+
+                    ics.push('BEGIN:VEVENT');
+                    ics.push(`DTSTART;VALUE=DATE:${dateStr}`);
+                    ics.push(`DTEND;VALUE=DATE:${dateStr}`);
+                    ics.push(`SUMMARY:${info.weton}`);
+                    ics.push(`DESCRIPTION:Tanggal ${d} ${NAMA_BULAN_PENDEX[m]} ${year} - ${info.weton}`);
+                    ics.push('END:VEVENT');
+                }
+            }
+
+            ics.push('END:VCALENDAR');
+            return ics.join('\r\n');
+        }
+
+        function downloadYearICS(year) {
+            const content = generateYearICS(year);
+            const blob = new Blob([content], { type: 'text/calendar;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `kalender-jawa-${year}.ics`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        // ----- POPULATE DROPDOWN TAHUN & BULAN -----
+        function populateDropdowns() {
+            const yearSelect = document.getElementById('yearSelect');
+            const monthSelect = document.getElementById('monthSelect');
+
+            // Tahun: dari 30 tahun lalu sampai 20 tahun depan (dinamis)
+            const now = new Date().getFullYear();
+            const startYear = now - 30;
+            const endYear = now + 20;
+
+            yearSelect.innerHTML = '';
+            for (let y = startYear; y <= endYear; y++) {
+                const opt = document.createElement('option');
+                opt.value = y;
+                opt.textContent = y;
+                yearSelect.appendChild(opt);
+            }
+
+            // Bulan: Jan - Des
+            monthSelect.innerHTML = '';
+            NAMA_BULAN.forEach((nama, idx) => {
+                const opt = document.createElement('option');
+                opt.value = idx;
+                opt.textContent = nama;
+                monthSelect.appendChild(opt);
+            });
+        }
+
+        // ----- STATE & NAVIGASI -----
+        let currentYear = 2026;
+        let currentMonth = 7; // Agustus
+
+        function updateCalendar() {
+            renderCalendar(currentYear, currentMonth);
+        }
+
+        // Event listener untuk dropdown
+        document.getElementById('yearSelect').addEventListener('change', function(e) {
+            currentYear = parseInt(e.target.value);
+            updateCalendar();
+        });
+
+        document.getElementById('monthSelect').addEventListener('change', function(e) {
+            currentMonth = parseInt(e.target.value);
+            updateCalendar();
+        });
+
+        // Tombol navigasi
+        document.getElementById('yearPrevBtn').addEventListener('click', () => {
+            currentYear--;
+            updateCalendar();
+        });
+        document.getElementById('yearNextBtn').addEventListener('click', () => {
+            currentYear++;
+            updateCalendar();
+        });
+        document.getElementById('monthPrevBtn').addEventListener('click', () => {
+            currentMonth--;
+            if (currentMonth < 0) {
+                currentMonth = 11;
+                currentYear--;
+            }
+            updateCalendar();
+        });
+        document.getElementById('monthNextBtn').addEventListener('click', () => {
+            currentMonth++;
+            if (currentMonth > 11) {
+                currentMonth = 0;
+                currentYear++;
+            }
+            updateCalendar();
+        });
+
+        document.getElementById('todayBtn').addEventListener('click', () => {
+            const today = new Date();
+            currentYear = today.getFullYear();
+            currentMonth = today.getMonth();
+            updateCalendar();
+        });
+
+        // Ekspor ICS
+        document.getElementById('exportYearIcs').addEventListener('click', () => {
+            downloadYearICS(currentYear);
+        });
+
+        // ----- INISIALISASI -----
+        populateDropdowns();
+
+        // Set nilai default ke Agustus 2026
+        document.getElementById('yearSelect').value = 2026;
+        document.getElementById('monthSelect').value = 7;
+        renderCalendar(2026, 7);
+
+        // Verifikasi di konsol
+        console.log('✅ 2 Agustus 2026:', getJawaInfo(2026, 7, 2).weton);  // Minggu Legi
+        console.log('✅ 9 Agustus 2026:', getJawaInfo(2026, 7, 9).weton);  // Minggu Pon
+        console.log('✅ 16 Agustus 2026:', getJawaInfo(2026, 7, 16).weton); // Minggu Kliwon
+        console.log('✅ 30 Agustus 2026:', getJawaInfo(2026, 7, 30).weton); // Minggu Wage
+        console.log('🚀 Sekarang pengguna bisa pilih tahun dari dropdown (1996–2046) dan bulan langsung.');
+    </script>
+</body>
+</html>
