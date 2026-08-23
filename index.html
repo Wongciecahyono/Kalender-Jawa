@@ -51,6 +51,7 @@
             justify-content: center;
             gap: 10px;
             margin-bottom: 18px;
+            flex-wrap: wrap;
         }
         .tabs button {
             background: #e5d5be;
@@ -186,7 +187,6 @@
             color: #2b1d10;
             line-height: 1.2;
         }
-        /* Warna Minggu & Jumat */
         .cell.sunday .date {
             color: #d32f2f;
         }
@@ -199,7 +199,6 @@
         .cell.friday {
             background: #f0faf0;
         }
-
         .cell .pasaran {
             font-size: 12px;
             font-weight: 600;
@@ -217,7 +216,6 @@
             font-weight: 500;
             margin-top: 1px;
         }
-        /* LABEL HARI LIBUR */
         .cell .libur-label {
             font-size: 9px;
             font-weight: 700;
@@ -233,7 +231,6 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
-
         .cell.today {
             background: #d4b08c !important;
             border-color: #8b6b4c;
@@ -308,27 +305,33 @@
         }
 
         /* ===== KALKULATOR ===== */
-        .calculator {
-            max-width: 500px;
+        .calculator, .selamatan, .selamatan-bayi {
+            max-width: 650px;
             margin: 0 auto;
             padding: 20px;
             background: #fcf6ed;
             border-radius: 20px;
             border: 1px solid #ede3d2;
         }
-        .calculator .form-group {
+        .calculator .form-group,
+        .selamatan .form-group,
+        .selamatan-bayi .form-group {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             gap: 12px;
             margin-bottom: 16px;
         }
-        .calculator .form-group label {
+        .calculator .form-group label,
+        .selamatan .form-group label,
+        .selamatan-bayi .form-group label {
             font-weight: 700;
             color: #4a3520;
             font-size: 16px;
         }
-        .calculator .form-group input[type="date"] {
+        .calculator .form-group input[type="date"],
+        .selamatan .form-group input[type="date"],
+        .selamatan-bayi .form-group input[type="date"] {
             padding: 8px 14px;
             border: 2px solid #dcc9b0;
             border-radius: 30px;
@@ -337,7 +340,9 @@
             flex: 1;
             min-width: 150px;
         }
-        .calculator .form-group button {
+        .calculator .form-group button,
+        .selamatan .form-group button,
+        .selamatan-bayi .form-group button {
             background: #8b6b4c;
             border: none;
             color: white;
@@ -349,7 +354,9 @@
             transition: 0.2s;
             border: 1px solid #6b4f34;
         }
-        .calculator .form-group button:hover {
+        .calculator .form-group button:hover,
+        .selamatan .form-group button:hover,
+        .selamatan-bayi .form-group button:hover {
             background: #6b4f34;
         }
         .result-box {
@@ -401,6 +408,54 @@
             font-style: italic;
         }
 
+        /* ===== TABEL SELAMATAN ===== */
+        .selamatan table, .selamatan-bayi table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 12px;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .selamatan th, .selamatan-bayi th {
+            background: #e5d5be;
+            color: #4a3520;
+            font-weight: 700;
+            padding: 10px 8px;
+            font-size: 14px;
+        }
+        .selamatan td, .selamatan-bayi td {
+            padding: 8px 8px;
+            border-bottom: 1px solid #ede3d2;
+            text-align: center;
+            font-size: 14px;
+        }
+        .selamatan tr:last-child td,
+        .selamatan-bayi tr:last-child td {
+            border-bottom: none;
+        }
+        .selamatan .weton-highlight,
+        .selamatan-bayi .weton-highlight {
+            font-weight: 700;
+            color: #4a3520;
+        }
+        .selamatan .warning,
+        .selamatan-bayi .warning {
+            color: #b35f2b;
+            font-weight: 600;
+        }
+        .selamatan-bayi .section-title {
+            font-weight: 700;
+            font-size: 16px;
+            color: #4a3520;
+            background: #f4ebd0;
+            padding: 6px 12px;
+            border-radius: 30px;
+            display: inline-block;
+            margin: 10px 0 6px;
+        }
+
         /* ===== RESPONSIVE ===== */
         @media (max-width: 500px) {
             .container {
@@ -446,12 +501,23 @@
                 font-size: 14px;
                 padding: 6px 16px;
             }
-            .calculator .form-group {
+            .calculator .form-group,
+            .selamatan .form-group,
+            .selamatan-bayi .form-group {
                 flex-direction: column;
                 align-items: stretch;
             }
-            .calculator .form-group input[type="date"] {
+            .calculator .form-group input[type="date"],
+            .selamatan .form-group input[type="date"],
+            .selamatan-bayi .form-group input[type="date"] {
                 width: 100%;
+            }
+            .selamatan table, .selamatan-bayi table {
+                font-size: 12px;
+            }
+            .selamatan th, .selamatan-bayi th,
+            .selamatan td, .selamatan-bayi td {
+                padding: 6px 4px;
             }
         }
     </style>
@@ -465,6 +531,8 @@
     <div class="tabs">
         <button class="tab-btn active" data-tab="calendar">📅 Kalender</button>
         <button class="tab-btn" data-tab="calculator">🧮 Kalkulator</button>
+        <button class="tab-btn" data-tab="selamatan">🕯️ Selamatan</button>
+        <button class="tab-btn" data-tab="selamatan-bayi">👶 Selamatan Bayi</button>
     </div>
 
     <!-- KONTEN TAB KALENDER -->
@@ -496,9 +564,31 @@
                 <input type="date" id="birthDate" value="2026-08-23" />
                 <button id="calcBtn">Hitung</button>
             </div>
-            <div id="resultArea">
-                <!-- Hasil akan ditampilkan di sini -->
+            <div id="resultArea"></div>
+        </div>
+    </div>
+
+    <!-- KONTEN TAB SELAMATAN (Meninggal) -->
+    <div id="tab-selamatan" class="tab-content">
+        <div class="selamatan">
+            <div class="form-group">
+                <label for="deathDate">🕯️ Tanggal Meninggal:</label>
+                <input type="date" id="deathDate" value="2026-08-23" />
+                <button id="hitungSelamatan">Hitung Selamatan</button>
             </div>
+            <div id="selamatanResult"></div>
+        </div>
+    </div>
+
+    <!-- KONTEN TAB SELAMATAN BAYI -->
+    <div id="tab-selamatan-bayi" class="tab-content">
+        <div class="selamatan-bayi">
+            <div class="form-group">
+                <label for="birthBabyDate">👶 Tanggal Lahir Bayi:</label>
+                <input type="date" id="birthBabyDate" value="2026-08-23" />
+                <button id="hitungBayi">Hitung Selamatan</button>
+            </div>
+            <div id="bayiResult"></div>
         </div>
     </div>
 
@@ -589,7 +679,7 @@
     }
 
     // ============================================================
-    //  4. RENDER KALENDER (dengan label hari libur)
+    //  4. RENDER KALENDER
     // ============================================================
     function renderCalendar(year, month) {
         const grid = document.getElementById('calendarGrid');
@@ -616,20 +706,17 @@
         const today = new Date();
         const todayUTC = new Date(Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()));
 
-        // Sel kosong awal
         for (let i = 0; i < startOffset; i++) {
             const prevDate = daysInPrevMonth - startOffset + i + 1;
             html += `<div class="cell other-month"><div class="date">${prevDate}</div></div>`;
         }
 
-        // Loop tanggal
         for (let d = 1; d <= daysInMonth; d++) {
             const info = getJawaInfo(year, month, d);
             const currentDate = new Date(Date.UTC(year, month, d));
             const isToday = currentDate.getTime() === todayUTC.getTime();
             const dayIdx = currentDate.getUTCDay();
 
-            // Buat key tanggal YYYY-MM-DD
             const dateKey = `${year}-${String(month+1).padStart(2,'0')}-${String(d).padStart(2,'0')}`;
             let liburLabel = '';
             if (LIBUR_NASIONAL[dateKey]) {
@@ -654,7 +741,6 @@
             `;
         }
 
-        // Sel kosong akhir
         const totalCells = startOffset + daysInMonth;
         const remaining = (7 - (totalCells % 7)) % 7;
         for (let i = 1; i <= remaining; i++) {
@@ -665,7 +751,7 @@
     }
 
     // ============================================================
-    //  5. GENERATE ICS (dengan label libur di deskripsi)
+    //  5. GENERATE ICS
     // ============================================================
     function generateYearICS(year) {
         let ics = [];
@@ -754,7 +840,145 @@
     }
 
     // ============================================================
-    //  7. POPULATE DROPDOWN
+    //  7. SELAMATAN MENINGGAL
+    // ============================================================
+    function hitungSelamatan(tanggalMeninggal) {
+        const parts = tanggalMeninggal.split('-');
+        const year = parseInt(parts[0]);
+        const month = parseInt(parts[1]) - 1;
+        const day = parseInt(parts[2]);
+        const baseDate = new Date(Date.UTC(year, month, day));
+
+        const daftar = [
+            { nama: 'Meninggal', hari: 0 },
+            { nama: '1 hari', hari: 1 },
+            { nama: '3 hari', hari: 3 },
+            { nama: '7 hari', hari: 7 },
+            { nama: '40 hari', hari: 40 },
+            { nama: '100 hari', hari: 100 },
+            { nama: '1 tahun (Pendhak 1)', hari: 365 },
+            { nama: '2 tahun (Pendhak 2)', hari: 730 },
+            { nama: '1000 hari (Nyewu)', hari: 1000 }
+        ];
+
+        const results = daftar.map(item => {
+            const target = new Date(baseDate);
+            target.setUTCDate(target.getUTCDate() + item.hari);
+            const info = getJawaInfo(target.getUTCFullYear(), target.getUTCMonth(), target.getUTCDate());
+            const tglStr = `${target.getUTCFullYear()}-${String(target.getUTCMonth()+1).padStart(2,'0')}-${String(target.getUTCDate()).padStart(2,'0')}`;
+            return {
+                nama: item.nama,
+                tanggal: tglStr,
+                hari: info.hari,
+                pasaran: info.pasaran,
+                weton: info.weton,
+                neptu: info.totalNeptu
+            };
+        });
+        return results;
+    }
+
+    function tampilkanSelamatan(tanggal) {
+        const data = hitungSelamatan(tanggal);
+        let html = `
+            <table>
+                <thead><tr><th>Selamatan</th><th>Tanggal</th><th>Hari</th><th>Pasaran</th><th>Weton</th><th>Neptu</th></tr></thead>
+                <tbody>
+        `;
+        data.forEach(item => {
+            html += `
+                <tr>
+                    <td><strong>${item.nama}</strong></td>
+                    <td>${item.tanggal}</td>
+                    <td>${item.hari}</td>
+                    <td>${item.pasaran}</td>
+                    <td class="weton-highlight">${item.weton}</td>
+                    <td>${item.neptu}</td>
+                </tr>
+            `;
+        });
+        html += `</tbody></table>
+            <p style="margin-top:12px; font-size:13px; color:#7a5d42;">
+                ⚠️ Perhitungan berdasarkan patokan <strong>1 Jan 2000 = Sabtu Legi</strong>.
+            </p>
+        `;
+        document.getElementById('selamatanResult').innerHTML = html;
+    }
+
+    // ============================================================
+    //  8. SELAMATAN BAYI
+    // ============================================================
+    function hitungSelamatanBayi(tanggalLahir) {
+        const parts = tanggalLahir.split('-');
+        const year = parseInt(parts[0]);
+        const month = parseInt(parts[1]) - 1;
+        const day = parseInt(parts[2]);
+        const lahir = new Date(Date.UTC(year, month, day));
+
+        // Daftar selamatan: [nama, selisih_hari] (minus = sebelum lahir, plus = setelah)
+        const daftar = [
+            { nama: '4 bulanan (kehamilan)', hari: -120 },
+            { nama: '7 bulanan (kehamilan)', hari: -210 },
+            { nama: 'Lahir', hari: 0 },
+            { nama: '3 hari setelah lahir', hari: 3 },
+            { nama: '7 hari setelah lahir', hari: 7 },
+            { nama: '40 hari setelah lahir', hari: 40 },
+            { nama: '100 hari setelah lahir', hari: 100 },
+            { nama: '1 tahun (Pendhak 1)', hari: 365 }
+        ];
+
+        const results = daftar.map(item => {
+            const target = new Date(lahir);
+            target.setUTCDate(target.getUTCDate() + item.hari);
+            const info = getJawaInfo(target.getUTCFullYear(), target.getUTCMonth(), target.getUTCDate());
+            const tglStr = `${target.getUTCFullYear()}-${String(target.getUTCMonth()+1).padStart(2,'0')}-${String(target.getUTCDate()).padStart(2,'0')}`;
+            return {
+                nama: item.nama,
+                tanggal: tglStr,
+                hari: info.hari,
+                pasaran: info.pasaran,
+                weton: info.weton,
+                neptu: info.totalNeptu,
+                kategori: item.hari < 0 ? 'Kehamilan' : (item.hari === 0 ? 'Lahir' : 'Pasca Lahir')
+            };
+        });
+        return results;
+    }
+
+    function tampilkanSelamatanBayi(tanggal) {
+        const data = hitungSelamatanBayi(tanggal);
+        let html = '';
+        // Kategori: Kehamilan, Lahir, Pasca Lahir
+        const kategori = ['Kehamilan', 'Lahir', 'Pasca Lahir'];
+        kategori.forEach(kat => {
+            const items = data.filter(d => d.kategori === kat);
+            if (items.length === 0) return;
+            html += `<div class="section-title">${kat === 'Kehamilan' ? '🤰' : (kat === 'Lahir' ? '👶' : '🍼')} ${kat}</div>`;
+            html += `<table>
+                <thead><tr><th>Selamatan</th><th>Tanggal</th><th>Hari</th><th>Pasaran</th><th>Weton</th><th>Neptu</th></tr></thead>
+                <tbody>`;
+            items.forEach(item => {
+                html += `
+                    <tr>
+                        <td><strong>${item.nama}</strong></td>
+                        <td>${item.tanggal}</td>
+                        <td>${item.hari}</td>
+                        <td>${item.pasaran}</td>
+                        <td class="weton-highlight">${item.weton}</td>
+                        <td>${item.neptu}</td>
+                    </tr>
+                `;
+            });
+            html += `</tbody></table>`;
+        });
+        html += `<p style="margin-top:12px; font-size:13px; color:#7a5d42;">
+                ⚠️ Perhitungan berdasarkan patokan <strong>1 Jan 2000 = Sabtu Legi</strong>.
+            </p>`;
+        document.getElementById('bayiResult').innerHTML = html;
+    }
+
+    // ============================================================
+    //  9. POPULATE DROPDOWN
     // ============================================================
     function populateDropdowns() {
         const yearSelect = document.getElementById('yearSelect');
@@ -782,7 +1006,7 @@
     }
 
     // ============================================================
-    //  8. STATE & NAVIGASI
+    //  10. STATE & NAVIGASI
     // ============================================================
     let currentYear = 2026;
     let currentMonth = 7;
@@ -836,7 +1060,7 @@
     });
 
     // ============================================================
-    //  9. KALKULATOR EVENT
+    //  11. KALKULATOR EVENT
     // ============================================================
     document.getElementById('calcBtn').addEventListener('click', function() {
         const dateInput = document.getElementById('birthDate').value;
@@ -855,7 +1079,45 @@
     });
 
     // ============================================================
-    //  10. TAB
+    //  12. SELAMATAN MENINGGAL EVENT
+    // ============================================================
+    document.getElementById('hitungSelamatan').addEventListener('click', function() {
+        const dateInput = document.getElementById('deathDate').value;
+        if (!dateInput) {
+            alert('Silakan pilih tanggal meninggal.');
+            return;
+        }
+        tampilkanSelamatan(dateInput);
+    });
+
+    window.addEventListener('load', function() {
+        const deathDate = document.getElementById('deathDate').value;
+        if (deathDate) {
+            tampilkanSelamatan(deathDate);
+        }
+    });
+
+    // ============================================================
+    //  13. SELAMATAN BAYI EVENT
+    // ============================================================
+    document.getElementById('hitungBayi').addEventListener('click', function() {
+        const dateInput = document.getElementById('birthBabyDate').value;
+        if (!dateInput) {
+            alert('Silakan pilih tanggal lahir bayi.');
+            return;
+        }
+        tampilkanSelamatanBayi(dateInput);
+    });
+
+    window.addEventListener('load', function() {
+        const babyDate = document.getElementById('birthBabyDate').value;
+        if (babyDate) {
+            tampilkanSelamatanBayi(babyDate);
+        }
+    });
+
+    // ============================================================
+    //  14. TAB
     // ============================================================
     const tabBtns = document.querySelectorAll('.tab-btn');
     const tabContents = document.querySelectorAll('.tab-content');
@@ -871,15 +1133,14 @@
     });
 
     // ============================================================
-    //  11. INISIALISASI
+    //  15. INISIALISASI
     // ============================================================
     populateDropdowns();
     document.getElementById('yearSelect').value = 2026;
     document.getElementById('monthSelect').value = 7;
     renderCalendar(2026, 7);
 
-    console.log('✅ Kalender Jawa dengan Hari Libur Nasional & Cuti Bersama 2026');
-    console.log('✅ 17 Agustus 2026:', getJawaInfo(2026, 7, 17).weton, '🏛️ Hari Kemerdekaan RI');
+    console.log('✅ Kalender Jawa dengan 4 tab: Kalender, Kalkulator, Selamatan Meninggal, Selamatan Bayi');
 </script>
 </body>
 </html>
