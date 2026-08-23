@@ -10,7 +10,7 @@ Dirancang untuk **kemudahan ekspor ke Google Calendar** — cukup satu klik untu
 - **Ekspor ICS** untuk satu tahun penuh → cocok untuk Google Calendar / iCal
 
 ## 🚀 Demo
-Akses langsung: [https://username.github.io/kalender-jawa/](https://username.github.io/kalender-jawa/)
+Akses langsung: [https://wongciecahyono.github.io/kalender-jawa/](https://wongciecahyono.github.io/kalender-jawa/)
 
 ## 📂 Teknologi
 - HTML + CSS + JavaScript murni (tanpa framework)
