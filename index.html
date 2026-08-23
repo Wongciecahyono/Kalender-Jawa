@@ -19,7 +19,7 @@
             padding: 20px;
         }
         .container {
-            max-width: 900px;
+            max-width: 950px;
             width: 100%;
             background: #fffbf2;
             border-radius: 24px;
@@ -43,6 +43,42 @@
             border-bottom: 2px dashed #dcc9b0;
             padding-bottom: 12px;
         }
+
+        /* TAB */
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 18px;
+        }
+        .tabs button {
+            background: #e5d5be;
+            border: none;
+            padding: 8px 28px;
+            border-radius: 40px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #4a3520;
+            cursor: pointer;
+            transition: 0.2s;
+            border: 2px solid transparent;
+        }
+        .tabs button.active {
+            background: #8b6b4c;
+            color: white;
+            border-color: #6b4f34;
+        }
+        .tabs button:hover {
+            transform: scale(1.02);
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+
+        /* KALENDER */
         .nav {
             display: flex;
             justify-content: space-between;
@@ -121,6 +157,14 @@
             border-radius: 12px;
             letter-spacing: 1px;
         }
+        /* Warna header hari Minggu (indeks 6 dalam urutan Sen-Min) dan Jumat (indeks 4) */
+        .day-header.sunday-header {
+            color: #d32f2f;
+        }
+        .day-header.friday-header {
+            color: #2e7d32;
+        }
+
         .cell {
             background: #fffdf7;
             border-radius: 14px;
@@ -140,6 +184,20 @@
             color: #2b1d10;
             line-height: 1.2;
         }
+        /* Warna khusus untuk Minggu (dayIdx=0) dan Jumat (dayIdx=5) */
+        .cell.sunday .date {
+            color: #d32f2f;
+        }
+        .cell.friday .date {
+            color: #2e7d32;
+        }
+        .cell.sunday {
+            background: #fff0f0;
+        }
+        .cell.friday {
+            background: #f0faf0;
+        }
+
         .cell .pasaran {
             font-size: 12px;
             font-weight: 600;
@@ -158,12 +216,12 @@
             margin-top: 1px;
         }
         .cell.today {
-            background: #d4b08c;
+            background: #d4b08c !important;
             border-color: #8b6b4c;
             box-shadow: 0 0 0 2px #6b4f34;
         }
         .cell.today .date {
-            color: #fff;
+            color: #fff !important;
         }
         .cell.today .pasaran {
             background: #fffbf2;
@@ -178,6 +236,14 @@
         .cell.weekend {
             background: #fcf4e8;
         }
+        /* Pastikan warna Minggu/Jumat tetap meskipun ada kelas weekend */
+        .cell.sunday.weekend {
+            background: #fff0f0 !important;
+        }
+        .cell.friday.weekend {
+            background: #f0faf0 !important;
+        }
+
         .export-area {
             margin-top: 24px;
             display: flex;
@@ -217,6 +283,106 @@
             color: #4a3520;
         }
 
+        /* KALKULATOR */
+        .calculator {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fcf6ed;
+            border-radius: 20px;
+            border: 1px solid #ede3d2;
+        }
+        .calculator .form-group {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .calculator .form-group label {
+            font-weight: 700;
+            color: #4a3520;
+            font-size: 16px;
+        }
+        .calculator .form-group input[type="date"] {
+            padding: 8px 14px;
+            border: 2px solid #dcc9b0;
+            border-radius: 30px;
+            font-size: 16px;
+            background: white;
+            flex: 1;
+            min-width: 150px;
+        }
+        .calculator .form-group button {
+            background: #8b6b4c;
+            border: none;
+            color: white;
+            font-weight: 700;
+            font-size: 16px;
+            padding: 8px 24px;
+            border-radius: 30px;
+            cursor: pointer;
+            transition: 0.2s;
+            border: 1px solid #6b4f34;
+        }
+        .calculator .form-group button:hover {
+            background: #6b4f34;
+        }
+        .result-box {
+            background: white;
+            border-radius: 16px;
+            padding: 16px 20px;
+            margin-top: 12px;
+            border: 1px solid #dcc9b0;
+        }
+        .result-box .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            border-bottom: 1px dashed #ede3d2;
+        }
+        .result-box .row:last-child {
+            border-bottom: none;
+        }
+        .result-box .label {
+            font-weight: 600;
+            color: #4a3520;
+        }
+        .result-box .value {
+            font-weight: 700;
+            color: #2b1d10;
+        }
+        .result-box .value.positive {
+            color: #2d5a3a;
+        }
+        .result-box .value.negative {
+            color: #b35f2b;
+        }
+        .arti-box {
+            margin-top: 12px;
+            background: #f4ebd0;
+            border-radius: 16px;
+            padding: 16px 20px;
+            text-align: center;
+            border: 2px solid #b08968;
+        }
+        .arti-box .title {
+            font-size: 20px;
+            font-weight: 800;
+            color: #3d2b1a;
+        }
+        .arti-box .desc {
+            font-size: 16px;
+            color: #4a3520;
+            margin-top: 4px;
+        }
+        .arti-box .note {
+            font-size: 14px;
+            color: #7a5d42;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
         @media (max-width: 500px) {
             .container {
                 padding: 12px 8px;
@@ -253,277 +419,377 @@
                 font-size: 14px;
                 padding: 10px 20px;
             }
+            .tabs button {
+                font-size: 14px;
+                padding: 6px 16px;
+            }
+            .calculator .form-group {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .calculator .form-group input[type="date"] {
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>📅 Kalender Jawa</h1>
-        <div class="subtitle">Weton • Pasaran • Masehi • <span style="color:#b35f2b;">1 Jan 2000 = Sabtu Legi</span></div>
+<div class="container">
+    <h1>📅 Kalender Jawa</h1>
+    <div class="subtitle">Weton • Pasaran • Masehi • <span style="color:#b35f2b;">1 Jan 2000 = Sabtu Legi</span></div>
 
-        <!-- Navigasi -->
+    <!-- TAB -->
+    <div class="tabs">
+        <button class="tab-btn active" data-tab="calendar">📅 Kalender</button>
+        <button class="tab-btn" data-tab="calculator">🧮 Kalkulator</button>
+    </div>
+
+    <!-- KONTEN TAB KALENDER -->
+    <div id="tab-calendar" class="tab-content active">
         <div class="nav">
-            <!-- PILIH TAHUN -->
             <div class="nav-group">
                 <button id="yearPrevBtn">◀◀</button>
                 <select id="yearSelect" class="year-select"></select>
                 <button id="yearNextBtn">▶▶</button>
             </div>
-
-            <!-- PILIH BULAN -->
             <div class="nav-group">
                 <button id="monthPrevBtn">◀</button>
                 <select id="monthSelect" class="month-select"></select>
                 <button id="monthNextBtn">▶</button>
             </div>
-
             <button class="today-btn" id="todayBtn">● Hari Ini</button>
         </div>
-
-        <!-- Grid Kalender -->
         <div class="calendar" id="calendarGrid"></div>
-
-        <!-- Ekspor -->
         <div class="export-area">
             <button id="exportYearIcs">📤 Ekspor ICS Tahun <span id="exportYearLabel">2026</span></button>
         </div>
+    </div>
 
-        <div class="footer">
-            ⚡ Satu file <strong>.ICS</strong> untuk satu tahun penuh (365 hari) • 
-            Cocok untuk Google Calendar / iCal
+    <!-- KONTEN TAB KALKULATOR -->
+    <div id="tab-calculator" class="tab-content">
+        <div class="calculator">
+            <div class="form-group">
+                <label for="birthDate">📆 Pilih Tanggal:</label>
+                <input type="date" id="birthDate" value="2026-08-23" />
+                <button id="calcBtn">Hitung</button>
+            </div>
+            <div id="resultArea">
+                <!-- Hasil akan ditampilkan di sini -->
+            </div>
         </div>
     </div>
 
-    <script>
-        // ----- PATOKAN TETAP (SUDAH BENAR) -----
-        const PASARAN = ['Legi', 'Pahing', 'Pon', 'Wage', 'Kliwon'];
-        const NAMA_HARI = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
-        const NAMA_BULAN = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni',
-            'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'
-        ];
-        const NAMA_BULAN_PENDEX = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'];
-        // Patokan: 1 Januari 2000 = Sabtu Legi (index pasaran 0)
-        const BASE_DATE = new Date(Date.UTC(2000, 0, 1));
+    <div class="footer">
+        ⚡ Satu file <strong>.ICS</strong> untuk satu tahun penuh (365 hari) • 
+        Cocok untuk Google Calendar / iCal
+    </div>
+</div>
 
-        // ----- FUNGSI INTI -----
-        function getJawaInfo(year, month, day) {
-            const target = new Date(Date.UTC(year, month, day));
-            const diffMs = target.getTime() - BASE_DATE.getTime();
-            const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
-            const pasaranIdx = ((diffDays % 5) + 5) % 5;
-            const hariIdx = target.getUTCDay();
-            return {
-                hari: NAMA_HARI[hariIdx],
-                pasaran: PASARAN[pasaranIdx],
-                weton: NAMA_HARI[hariIdx] + ' ' + PASARAN[pasaranIdx]
-            };
+<script>
+    // ----- PATOKAN TETAP -----
+    const PASARAN = ['Legi', 'Pahing', 'Pon', 'Wage', 'Kliwon'];
+    const NAMA_HARI = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu'];
+    const NAMA_BULAN = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni',
+        'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'
+    ];
+    const NAMA_BULAN_PENDEX = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'];
+    const BASE_DATE = new Date(Date.UTC(2000, 0, 1));
+
+    // NEPTU
+    const NEPTU_HARI = { 'Minggu': 5, 'Senin': 4, 'Selasa': 3, 'Rabu': 7, 'Kamis': 8, 'Jumat': 6, 'Sabtu': 9 };
+    const NEPTU_PASARAN = { 'Legi': 5, 'Pahing': 9, 'Pon': 7, 'Wage': 4, 'Kliwon': 8 };
+    const ARTI_WETON = [
+        { sisa: 0, nama: 'Pegat', desc: 'Tidak baik, hindari!', note: 'Kekurangan, sering konflik' },
+        { sisa: 1, nama: 'Ratu', desc: 'Harmonis, baik!', note: 'Kehidupan rukun dan bahagia' },
+        { sisa: 2, nama: 'Jodho', desc: 'Cocok, baik!', note: 'Saling mencocoki' },
+        { sisa: 3, nama: 'Topo', desc: 'Kurang harmonis', note: 'Banyak ujian' },
+        { sisa: 4, nama: 'Tinari', desc: 'Bahagia, baik!', note: 'Kehidupan tenteram' },
+        { sisa: 5, nama: 'Padu', desc: 'Sering bertengkar', note: 'Konflik sering terjadi' },
+        { sisa: 6, nama: 'Sujanan', desc: 'Konflik, kurang baik', note: 'Cemburu dan perselisihan' }
+    ];
+
+    // ----- FUNGSI DASAR -----
+    function getJawaInfo(year, month, day) {
+        const target = new Date(Date.UTC(year, month, day));
+        const diffMs = target.getTime() - BASE_DATE.getTime();
+        const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+        const pasaranIdx = ((diffDays % 5) + 5) % 5;
+        const hariIdx = target.getUTCDay();
+        const hari = NAMA_HARI[hariIdx];
+        const pasaran = PASARAN[pasaranIdx];
+        return {
+            hari,
+            pasaran,
+            weton: hari + ' ' + pasaran,
+            neptuHari: NEPTU_HARI[hari],
+            neptuPasaran: NEPTU_PASARAN[pasaran],
+            totalNeptu: NEPTU_HARI[hari] + NEPTU_PASARAN[pasaran]
+        };
+    }
+
+    // ----- KALKULATOR -----
+    function hitungWeton(tanggal) {
+        const parts = tanggal.split('-');
+        const year = parseInt(parts[0]);
+        const month = parseInt(parts[1]) - 1;
+        const day = parseInt(parts[2]);
+        const info = getJawaInfo(year, month, day);
+        const sisa = info.totalNeptu % 7;
+        const arti = ARTI_WETON.find(a => a.sisa === sisa);
+        return { ...info, sisa, arti };
+    }
+
+    function tampilkanHasil(tanggal) {
+        const data = hitungWeton(tanggal);
+        const area = document.getElementById('resultArea');
+        area.innerHTML = `
+            <div class="result-box">
+                <div class="row"><span class="label">Hari</span><span class="value">${data.hari}</span></div>
+                <div class="row"><span class="label">Pasaran</span><span class="value">${data.pasaran}</span></div>
+                <div class="row"><span class="label">Neptu Hari</span><span class="value">${data.neptuHari}</span></div>
+                <div class="row"><span class="label">Neptu Pasaran</span><span class="value">${data.neptuPasaran}</span></div>
+                <div class="row"><span class="label">Total Neptu</span><span class="value" style="font-size:20px;">${data.totalNeptu}</span></div>
+                <div class="row"><span class="label">Weton</span><span class="value" style="font-size:18px;">${data.weton}</span></div>
+            </div>
+            <div class="arti-box">
+                <div class="title">${data.arti.nama}</div>
+                <div class="desc">${data.arti.desc}</div>
+                <div class="note">${data.arti.note}</div>
+            </div>
+        `;
+    }
+
+    // ----- RENDER KALENDER (dengan warna Minggu & Jumat yang benar) -----
+    function renderCalendar(year, month) {
+        const grid = document.getElementById('calendarGrid');
+        document.getElementById('exportYearLabel').textContent = year;
+
+        document.getElementById('yearSelect').value = year;
+        document.getElementById('monthSelect').value = month;
+
+        const firstDay = new Date(Date.UTC(year, month, 1)).getUTCDay();
+        const daysInMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
+        const daysInPrevMonth = new Date(Date.UTC(year, month, 0)).getUTCDate();
+
+        // Offset agar kolom pertama = Senin
+        let startOffset = (firstDay === 0) ? 6 : firstDay - 1;
+
+        let html = '';
+        const headerHari = ['Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab', 'Min'];
+        headerHari.forEach((h, idx) => {
+            let cls = 'day-header';
+            if (idx === 4) cls += ' friday-header';   // Jumat
+            if (idx === 6) cls += ' sunday-header';   // Minggu
+            html += `<div class="${cls}">${h}</div>`;
+        });
+
+        const today = new Date();
+        const todayUTC = new Date(Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()));
+
+        // Sel kosong awal
+        for (let i = 0; i < startOffset; i++) {
+            const prevDate = daysInPrevMonth - startOffset + i + 1;
+            html += `<div class="cell other-month"><div class="date">${prevDate}</div></div>`;
         }
 
-        // ----- RENDER KALENDER BULANAN -----
-        function renderCalendar(year, month) {
-            const grid = document.getElementById('calendarGrid');
-            document.getElementById('exportYearLabel').textContent = year;
+        // Loop tanggal
+        for (let d = 1; d <= daysInMonth; d++) {
+            const info = getJawaInfo(year, month, d);
+            const currentDate = new Date(Date.UTC(year, month, d));
+            const isToday = currentDate.getTime() === todayUTC.getTime();
+            const dayIdx = currentDate.getUTCDay(); // 0=Minggu, 5=Jumat, 6=Sabtu
 
-            // Sinkronkan dropdown
-            document.getElementById('yearSelect').value = year;
-            document.getElementById('monthSelect').value = month;
+            let classes = 'cell';
+            if (isToday) classes += ' today';
+            if (dayIdx === 5 || dayIdx === 6) classes += ' weekend'; // Sabtu & Minggu
+            // Warna khusus: Minggu (0) dan Jumat (5)
+            if (dayIdx === 0) classes += ' sunday';
+            if (dayIdx === 5) classes += ' friday';
 
-            const firstDay = new Date(Date.UTC(year, month, 1)).getUTCDay();
-            const daysInMonth = new Date(Date.UTC(year, month + 1, 0)).getUTCDate();
-            const daysInPrevMonth = new Date(Date.UTC(year, month, 0)).getUTCDate();
+            html += `
+                <div class="${classes}">
+                    <div class="date">${d}</div>
+                    <span class="pasaran">${info.pasaran}</span>
+                    <div class="weton">${info.hari}</div>
+                </div>
+            `;
+        }
 
-            let startOffset = (firstDay === 0) ? 6 : firstDay - 1;
+        // Sel kosong akhir
+        const totalCells = startOffset + daysInMonth;
+        const remaining = (7 - (totalCells % 7)) % 7;
+        for (let i = 1; i <= remaining; i++) {
+            html += `<div class="cell other-month"><div class="date">${i}</div></div>`;
+        }
 
-            let html = '';
-            const headerHari = ['Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab', 'Min'];
-            headerHari.forEach(h => {
-                html += `<div class="day-header">${h}</div>`;
-            });
+        grid.innerHTML = html;
+    }
 
-            const today = new Date();
-            const todayUTC = new Date(Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()));
+    // ----- GENERATE ICS -----
+    function generateYearICS(year) {
+        let ics = [];
+        ics.push('BEGIN:VCALENDAR');
+        ics.push('VERSION:2.0');
+        ics.push('PRODID:-//Kalender Jawa//v1.0//ID');
+        ics.push('CALSCALE:GREGORIAN');
+        ics.push('X-WR-CALNAME;VALUE=TEXT:Kalender Jawa ' + year);
+        ics.push('X-WR-CALDESC;VALUE=TEXT:Weton dan Pasaran untuk tahun ' + year);
 
-            // Kosong awal
-            for (let i = 0; i < startOffset; i++) {
-                const prevDate = daysInPrevMonth - startOffset + i + 1;
-                html += `<div class="cell other-month"><div class="date">${prevDate}</div></div>`;
-            }
-
-            // Tanggal bulan ini
+        for (let m = 0; m < 12; m++) {
+            const daysInMonth = new Date(Date.UTC(year, m + 1, 0)).getUTCDate();
             for (let d = 1; d <= daysInMonth; d++) {
-                const info = getJawaInfo(year, month, d);
-                const currentDate = new Date(Date.UTC(year, month, d));
-                const isToday = currentDate.getTime() === todayUTC.getTime();
-                const dayIdx = currentDate.getUTCDay();
-                const isWeekend = (dayIdx === 5 || dayIdx === 6);
+                const info = getJawaInfo(year, m, d);
+                const y = year;
+                const mo = String(m + 1).padStart(2, '0');
+                const day = String(d).padStart(2, '0');
+                const dateStr = `${y}${mo}${day}`;
 
-                let classes = 'cell';
-                if (isToday) classes += ' today';
-                if (isWeekend) classes += ' weekend';
-
-                html += `
-                    <div class="${classes}">
-                        <div class="date">${d}</div>
-                        <span class="pasaran">${info.pasaran}</span>
-                        <div class="weton">${info.hari}</div>
-                    </div>
-                `;
+                ics.push('BEGIN:VEVENT');
+                ics.push(`DTSTART;VALUE=DATE:${dateStr}`);
+                ics.push(`DTEND;VALUE=DATE:${dateStr}`);
+                ics.push(`SUMMARY:${info.weton}`);
+                ics.push(`DESCRIPTION:Tanggal ${d} ${NAMA_BULAN_PENDEX[m]} ${year} - ${info.weton}`);
+                ics.push('END:VEVENT');
             }
-
-            // Kosong akhir
-            const totalCells = startOffset + daysInMonth;
-            const remaining = (7 - (totalCells % 7)) % 7;
-            for (let i = 1; i <= remaining; i++) {
-                html += `<div class="cell other-month"><div class="date">${i}</div></div>`;
-            }
-
-            grid.innerHTML = html;
         }
 
-        // ----- GENERATE ICS SATU TAHUN PENUH -----
-        function generateYearICS(year) {
-            let ics = [];
-            ics.push('BEGIN:VCALENDAR');
-            ics.push('VERSION:2.0');
-            ics.push('PRODID:-//Kalender Jawa//v1.0//ID');
-            ics.push('CALSCALE:GREGORIAN');
-            ics.push('X-WR-CALNAME;VALUE=TEXT:Kalender Jawa ' + year);
-            ics.push('X-WR-CALDESC;VALUE=TEXT:Weton dan Pasaran untuk tahun ' + year);
+        ics.push('END:VCALENDAR');
+        return ics.join('\r\n');
+    }
 
-            for (let m = 0; m < 12; m++) {
-                const daysInMonth = new Date(Date.UTC(year, m + 1, 0)).getUTCDate();
-                for (let d = 1; d <= daysInMonth; d++) {
-                    const info = getJawaInfo(year, m, d);
-                    const y = year;
-                    const mo = String(m + 1).padStart(2, '0');
-                    const day = String(d).padStart(2, '0');
-                    const dateStr = `${y}${mo}${day}`;
+    function downloadYearICS(year) {
+        const content = generateYearICS(year);
+        const blob = new Blob([content], { type: 'text/calendar;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `kalender-jawa-${year}.ics`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
 
-                    ics.push('BEGIN:VEVENT');
-                    ics.push(`DTSTART;VALUE=DATE:${dateStr}`);
-                    ics.push(`DTEND;VALUE=DATE:${dateStr}`);
-                    ics.push(`SUMMARY:${info.weton}`);
-                    ics.push(`DESCRIPTION:Tanggal ${d} ${NAMA_BULAN_PENDEX[m]} ${year} - ${info.weton}`);
-                    ics.push('END:VEVENT');
-                }
-            }
+    // ----- POPULATE DROPDOWN -----
+    function populateDropdowns() {
+        const yearSelect = document.getElementById('yearSelect');
+        const monthSelect = document.getElementById('monthSelect');
 
-            ics.push('END:VCALENDAR');
-            return ics.join('\r\n');
+        const now = new Date().getFullYear();
+        const startYear = now - 30;
+        const endYear = now + 20;
+
+        yearSelect.innerHTML = '';
+        for (let y = startYear; y <= endYear; y++) {
+            const opt = document.createElement('option');
+            opt.value = y;
+            opt.textContent = y;
+            yearSelect.appendChild(opt);
         }
 
-        function downloadYearICS(year) {
-            const content = generateYearICS(year);
-            const blob = new Blob([content], { type: 'text/calendar;charset=utf-8' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = `kalender-jawa-${year}.ics`;
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
-        }
-
-        // ----- POPULATE DROPDOWN TAHUN & BULAN -----
-        function populateDropdowns() {
-            const yearSelect = document.getElementById('yearSelect');
-            const monthSelect = document.getElementById('monthSelect');
-
-            // Tahun: dari 30 tahun lalu sampai 20 tahun depan (dinamis)
-            const now = new Date().getFullYear();
-            const startYear = now - 30;
-            const endYear = now + 20;
-
-            yearSelect.innerHTML = '';
-            for (let y = startYear; y <= endYear; y++) {
-                const opt = document.createElement('option');
-                opt.value = y;
-                opt.textContent = y;
-                yearSelect.appendChild(opt);
-            }
-
-            // Bulan: Jan - Des
-            monthSelect.innerHTML = '';
-            NAMA_BULAN.forEach((nama, idx) => {
-                const opt = document.createElement('option');
-                opt.value = idx;
-                opt.textContent = nama;
-                monthSelect.appendChild(opt);
-            });
-        }
-
-        // ----- STATE & NAVIGASI -----
-        let currentYear = 2026;
-        let currentMonth = 7; // Agustus
-
-        function updateCalendar() {
-            renderCalendar(currentYear, currentMonth);
-        }
-
-        // Event listener untuk dropdown
-        document.getElementById('yearSelect').addEventListener('change', function(e) {
-            currentYear = parseInt(e.target.value);
-            updateCalendar();
+        monthSelect.innerHTML = '';
+        NAMA_BULAN.forEach((nama, idx) => {
+            const opt = document.createElement('option');
+            opt.value = idx;
+            opt.textContent = nama;
+            monthSelect.appendChild(opt);
         });
+    }
 
-        document.getElementById('monthSelect').addEventListener('change', function(e) {
-            currentMonth = parseInt(e.target.value);
-            updateCalendar();
-        });
+    // ----- STATE & NAVIGASI -----
+    let currentYear = 2026;
+    let currentMonth = 7;
 
-        // Tombol navigasi
-        document.getElementById('yearPrevBtn').addEventListener('click', () => {
+    function updateCalendar() {
+        renderCalendar(currentYear, currentMonth);
+    }
+
+    document.getElementById('yearSelect').addEventListener('change', function(e) {
+        currentYear = parseInt(e.target.value);
+        updateCalendar();
+    });
+    document.getElementById('monthSelect').addEventListener('change', function(e) {
+        currentMonth = parseInt(e.target.value);
+        updateCalendar();
+    });
+
+    document.getElementById('yearPrevBtn').addEventListener('click', () => {
+        currentYear--;
+        updateCalendar();
+    });
+    document.getElementById('yearNextBtn').addEventListener('click', () => {
+        currentYear++;
+        updateCalendar();
+    });
+    document.getElementById('monthPrevBtn').addEventListener('click', () => {
+        currentMonth--;
+        if (currentMonth < 0) {
+            currentMonth = 11;
             currentYear--;
-            updateCalendar();
-        });
-        document.getElementById('yearNextBtn').addEventListener('click', () => {
+        }
+        updateCalendar();
+    });
+    document.getElementById('monthNextBtn').addEventListener('click', () => {
+        currentMonth++;
+        if (currentMonth > 11) {
+            currentMonth = 0;
             currentYear++;
-            updateCalendar();
-        });
-        document.getElementById('monthPrevBtn').addEventListener('click', () => {
-            currentMonth--;
-            if (currentMonth < 0) {
-                currentMonth = 11;
-                currentYear--;
-            }
-            updateCalendar();
-        });
-        document.getElementById('monthNextBtn').addEventListener('click', () => {
-            currentMonth++;
-            if (currentMonth > 11) {
-                currentMonth = 0;
-                currentYear++;
-            }
-            updateCalendar();
-        });
+        }
+        updateCalendar();
+    });
+    document.getElementById('todayBtn').addEventListener('click', () => {
+        const today = new Date();
+        currentYear = today.getFullYear();
+        currentMonth = today.getMonth();
+        updateCalendar();
+    });
 
-        document.getElementById('todayBtn').addEventListener('click', () => {
-            const today = new Date();
-            currentYear = today.getFullYear();
-            currentMonth = today.getMonth();
-            updateCalendar();
+    document.getElementById('exportYearIcs').addEventListener('click', () => {
+        downloadYearICS(currentYear);
+    });
+
+    // ----- KALKULATOR EVENT -----
+    document.getElementById('calcBtn').addEventListener('click', function() {
+        const dateInput = document.getElementById('birthDate').value;
+        if (!dateInput) {
+            alert('Silakan pilih tanggal terlebih dahulu.');
+            return;
+        }
+        tampilkanHasil(dateInput);
+    });
+
+    window.addEventListener('load', function() {
+        const defaultDate = document.getElementById('birthDate').value;
+        if (defaultDate) {
+            tampilkanHasil(defaultDate);
+        }
+    });
+
+    // ----- TAB -----
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const target = this.dataset.tab;
+            tabBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            tabContents.forEach(c => c.classList.remove('active'));
+            document.getElementById('tab-' + target).classList.add('active');
         });
+    });
 
-        // Ekspor ICS
-        document.getElementById('exportYearIcs').addEventListener('click', () => {
-            downloadYearICS(currentYear);
-        });
+    // ----- INISIALISASI -----
+    populateDropdowns();
+    document.getElementById('yearSelect').value = 2026;
+    document.getElementById('monthSelect').value = 7;
+    renderCalendar(2026, 7);
 
-        // ----- INISIALISASI -----
-        populateDropdowns();
-
-        // Set nilai default ke Agustus 2026
-        document.getElementById('yearSelect').value = 2026;
-        document.getElementById('monthSelect').value = 7;
-        renderCalendar(2026, 7);
-
-        // Verifikasi di konsol
-        console.log('✅ 2 Agustus 2026:', getJawaInfo(2026, 7, 2).weton);  // Minggu Legi
-        console.log('✅ 9 Agustus 2026:', getJawaInfo(2026, 7, 9).weton);  // Minggu Pon
-        console.log('✅ 16 Agustus 2026:', getJawaInfo(2026, 7, 16).weton); // Minggu Kliwon
-        console.log('✅ 30 Agustus 2026:', getJawaInfo(2026, 7, 30).weton); // Minggu Wage
-        console.log('🚀 Sekarang pengguna bisa pilih tahun dari dropdown (1996–2046) dan bulan langsung.');
-    </script>
+    console.log('✅ 2 Agustus 2026:', getJawaInfo(2026, 7, 2).weton);
+    console.log('✅ 9 Agustus 2026:', getJawaInfo(2026, 7, 9).weton);
+    console.log('✅ 16 Agustus 2026:', getJawaInfo(2026, 7, 16).weton);
+    console.log('✅ 30 Agustus 2026:', getJawaInfo(2026, 7, 30).weton);
+    console.log('🚀 Warna: Minggu = merah, Jumat = hijau (sudah diperbaiki).');
+</script>
 </body>
 </html>
