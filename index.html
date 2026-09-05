@@ -88,16 +88,15 @@
         <div class="nav">
             <div class="label">
                 <div>
-                    <span id="monthLabel">Januari 2025</span>
-                    <span class="jawa" id="jawaMonthLabel">Sura 1957</span>
+                    <span id="monthLabel">September 2026</span>
+                    <span class="jawa" id="jawaMonthLabel">Maulud 1960</span>
                     <span class="sub" id="gregLabel">(Gregorian)</span>
                 </div>
                 <div>
-                    <span class="bulan-jawa" id="bulanJawaHeader">Besar 1958 AJ</span>
+                    <span class="bulan-jawa" id="bulanJawaHeader">Maulud 1960 AJ</span>
                 </div>
             </div>
             <div class="nav-buttons">
-                <!-- Dropdown navigasi -->
                 <div class="nav-selector">
                     <select id="monthSelect">
                         <option value="0">Januari</option>
@@ -183,11 +182,11 @@
             const BULAN_MASEHI = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
             const BULAN_JAWA = ['Sura','Sapar','Mulud','Bakda Mulud','Jumadil Awal','Jumadil Akhir','Rejeb','Ruwah','Pasa','Sawal','Sela','Besar'];
 
-            // Acuan: 1 Agustus 2026 = Sabtu Kliwon
+            // Acuan: 1 Agustus 2026 = Sabtu Kliwon, dan secara Jawa = 12 Sapar 1960
             const REF_DATE = new Date(2026, 7, 1);
-            const REF_DAY = 6;
+            const REF_DAY = 6;          // Sabtu
             const REF_PASARAN_INDEX = 4; // Kliwon
-            const REF_WUKU_INDEX = 0;
+            const REF_WUKU_INDEX = 0;    // Sinta
 
             function getDayDiff(year, month, day) {
                 const target = new Date(year, month, day);
@@ -206,9 +205,11 @@
                 const neptu = nilaiHari + nilaiPasaran;
                 const neton = (neptu % 7 === 0) ? 7 : neptu % 7;
 
-                let jDay = 17 + diff;
-                let jMonth = 11;
-                let jYear = 1958;
+                // PERBAIKAN: 1 Agustus 2026 = 12 Sapar 1960
+                let jDay = 12 + diff;
+                let jMonth = 1;  // Sapar (index 1)
+                let jYear = 1960;
+
                 while (jDay > 30) { jDay -= 30; jMonth++; if (jMonth >= 12) { jMonth = 0; jYear++; } }
                 while (jDay < 1) { jDay += 30; jMonth--; if (jMonth < 0) { jMonth = 11; jYear--; } }
 
@@ -282,7 +283,6 @@
 
             // ================== RENDER KALENDER ==================
             function renderCalendar(year, month) {
-                // Sinkronkan dropdown dengan tahun/bulan yang sedang ditampilkan
                 monthSelect.value = month;
                 yearSelect.value = year;
 
@@ -511,7 +511,7 @@
                 else if (e.key === 't' || e.key === 'T') goToToday();
             });
 
-            showToast('✅ Kalender Jawa siap | Dropdown tahun/bulan tersedia', 'success', 4000);
+            showToast('✅ Kalender Jawa diperbaiki – bulan Maulud 1960', 'success', 4000);
         })();
     </script>
 </body>
