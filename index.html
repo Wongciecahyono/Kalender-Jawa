@@ -14,6 +14,7 @@
         .nav .label .jawa { color:#8b5a3c; font-weight:600; }
         .nav .label .sub { font-size:16px; font-weight:400; color:#7a6553; }
         .nav .label .bulan-jawa { font-size:18px; font-weight:600; color:#5a3e2b; background:#e4d8cd; padding:2px 16px; border-radius:40px; }
+        .nav .label .tahun-jawa { font-size:16px; font-weight:600; color:#8b5a3c; background:#f0e4d8; padding:2px 14px; border-radius:40px; }
         .nav-buttons { display:flex; gap:5px; align-items:center; flex-wrap:wrap; }
         .nav-selector { display:flex; gap:5px; align-items:center; }
         .nav-selector select { padding:6px 10px; border-radius:40px; border:1px solid #dccfc2; background:#fff; font-weight:600; font-size:14px; color:#3d2c1e; outline:none; cursor:pointer; }
@@ -89,11 +90,12 @@
             <div class="label">
                 <div>
                     <span id="monthLabel">September 2026</span>
-                    <span class="jawa" id="jawaMonthLabel">Maulud 1960</span>
+                    <span class="jawa" id="jawaMonthLabel">Mulud 1960</span>
                     <span class="sub" id="gregLabel">(Gregorian)</span>
                 </div>
                 <div>
-                    <span class="bulan-jawa" id="bulanJawaHeader">Maulud 1960 AJ</span>
+                    <span class="bulan-jawa" id="bulanJawaHeader">Mulud 1960 AJ</span>
+                    <span class="tahun-jawa" id="tahunNamaHeader">✦ Be</span>
                 </div>
             </div>
             <div class="nav-buttons">
@@ -181,37 +183,72 @@
             const NAMA_HARI = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
             const BULAN_MASEHI = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
             const BULAN_JAWA = ['Sura','Sapar','Mulud','Bakda Mulud','Jumadil Awal','Jumadil Akhir','Rejeb','Ruwah','Pasa','Sawal','Sela','Besar'];
+            
+            // ================== NAMA TAHUN DALAM SATU WINDU ==================
+            const NAMA_TAHUN_WINDU = ['Alip', 'Ehe', 'Jimawal', 'Je', 'Dal', 'Be', 'Wawu', 'Jimakir'];
 
-            // Acuan: 1 Agustus 2026 = Sabtu Kliwon, dan secara Jawa = 12 Sapar 1960
+            // ================== ACUAN KALENDER JAWA ==================
+            // 1 Agustus 2026 = Sabtu Kliwon = 18 Sapar 1960
             const REF_DATE = new Date(2026, 7, 1);
             const REF_DAY = 6;          // Sabtu
             const REF_PASARAN_INDEX = 4; // Kliwon
             const REF_WUKU_INDEX = 0;    // Sinta
 
+            // ================== FUNGSI PERHITUNGAN ==================
             function getDayDiff(year, month, day) {
                 const target = new Date(year, month, day);
                 return Math.round((target - REF_DATE) / 86400000);
             }
 
+            // Fungsi untuk mendapatkan nama tahun dalam windu
+            function getNamaTahun(jawaYear) {
+                // Tahun 1960 = Be, kita cari sisa pembagian dari 1960
+                // 1960 mod 8 = 0 (karena 8*245 = 1960), indeks 0 = Alip? 
+                // Tapi kita tahu 1960 adalah Be (indeks 5), jadi perlu offset
+                // 1960 mod 8 = 0, kita map kan ke indeks 5 (Be)
+                // offset = 5 - (1960 % 8) = 5 - 0 = 5
+                const offset = 5; // karena tahun 1960 = Be
+                const idx = ((jawaYear + offset) % 8 + 8) % 8;
+                return NAMA_TAHUN_WINDU[idx];
+            }
+
             function getJawa(year, month, day) {
                 const diff = getDayDiff(year, month, day);
+
                 const dayOfWeek = ((REF_DAY + diff) % 7 + 7) % 7;
                 const pasaranIdx = ((REF_PASARAN_INDEX + diff) % 5 + 5) % 5;
                 const pasaran = PASARAN_URUT[pasaranIdx];
                 const wukuIdx = ((REF_WUKU_INDEX + diff) % 30 + 30) % 30;
                 const wuku = WUKU[wukuIdx];
+
                 const nilaiHari = NILAI_HARI[dayOfWeek];
                 const nilaiPasaran = NILAI_PASARAN[pasaran];
                 const neptu = nilaiHari + nilaiPasaran;
                 const neton = (neptu % 7 === 0) ? 7 : neptu % 7;
 
-                // PERBAIKAN: 1 Agustus 2026 = 12 Sapar 1960
-                let jDay = 12 + diff;
-                let jMonth = 1;  // Sapar (index 1)
+                // 1 Agustus 2026 = 18 Sapar 1960
+                let jDay = 18 + diff;
+                let jMonth = 1;
                 let jYear = 1960;
 
-                while (jDay > 30) { jDay -= 30; jMonth++; if (jMonth >= 12) { jMonth = 0; jYear++; } }
-                while (jDay < 1) { jDay += 30; jMonth--; if (jMonth < 0) { jMonth = 11; jYear--; } }
+                while (jDay > 30) {
+                    jDay -= 30;
+                    jMonth++;
+                    if (jMonth >= 12) {
+                        jMonth = 0;
+                        jYear++;
+                    }
+                }
+                while (jDay < 1) {
+                    jDay += 30;
+                    jMonth--;
+                    if (jMonth < 0) {
+                        jMonth = 11;
+                        jYear--;
+                    }
+                }
+
+                const namaTahun = getNamaTahun(jYear);
 
                 return {
                     dayOfWeek,
@@ -224,7 +261,8 @@
                     jawaMonth: jMonth,
                     jawaYear: jYear,
                     bulanJawa: BULAN_JAWA[jMonth] || 'Sura',
-                    artiNeton: ARTI_NETON[neton]
+                    artiNeton: ARTI_NETON[neton],
+                    namaTahun: namaTahun
                 };
             }
 
@@ -249,6 +287,7 @@
             const jawaMonthLabel = document.getElementById('jawaMonthLabel');
             const gregLabel = document.getElementById('gregLabel');
             const bulanJawaHeader = document.getElementById('bulanJawaHeader');
+            const tahunNamaHeader = document.getElementById('tahunNamaHeader');
             const infoJawaDate = document.getElementById('infoJawaDate');
             const infoWeton = document.getElementById('infoWeton');
             const infoWuku = document.getElementById('infoWuku');
@@ -290,11 +329,13 @@
                 const daysInMonth = new Date(year, month + 1, 0).getDate();
                 const daysInPrev = new Date(year, month, 0).getDate();
 
-                monthLabel.textContent = `${BULAN_MASEHI[month]} ${year}`;
                 const firstJawa = getJawa(year, month, 1);
+                
+                monthLabel.textContent = `${BULAN_MASEHI[month]} ${year}`;
                 jawaMonthLabel.textContent = `${firstJawa.bulanJawa} ${firstJawa.jawaYear}`;
                 gregLabel.textContent = '(Gregorian)';
                 bulanJawaHeader.textContent = `${firstJawa.bulanJawa} ${firstJawa.jawaYear} AJ`;
+                tahunNamaHeader.textContent = `✦ ${firstJawa.namaTahun}`;
 
                 let html = '';
                 const dayNames = ['Min','Sen','Sel','Rab','Kam','Jum','Sab'];
@@ -355,13 +396,13 @@
 
                 grid.innerHTML = html;
 
-                // Info hari ini
+                // Info panel (hari ini)
                 const now = today;
                 const jNow = getJawa(now.getFullYear(), now.getMonth(), now.getDate());
                 infoJawaDate.textContent = `${jNow.jawaDay} ${jNow.bulanJawa} ${jNow.jawaYear}`;
                 infoWeton.textContent = `${jNow.namaHari} ${jNow.pasaran}  (Neptu ${jNow.neptu})`;
                 infoWuku.textContent = jNow.wuku;
-                infoTahunJawa.textContent = `${jNow.jawaYear} AJ`;
+                infoTahunJawa.textContent = `${jNow.jawaYear} AJ (${jNow.namaTahun})`;
 
                 icsStatus.textContent = `${daysInMonth} hari • pilih rentang`;
             }
@@ -421,8 +462,8 @@
                         const dateStr = `${y}${String(m+1).padStart(2,'0')}${String(d).padStart(2,'0')}`;
                         const next = new Date(y, m, d + 1);
                         const nextStr = `${next.getFullYear()}${String(next.getMonth()+1).padStart(2,'0')}${String(next.getDate()).padStart(2,'0')}`;
-                        const summary = `🌾 ${j.jawaDay} ${j.bulanJawa} ${j.jawaYear} • ${j.pasaran} (Wuku: ${j.wuku}, Neptu: ${j.neptu})`;
-                        const desc = `Tanggal Jawa: ${j.jawaDay} ${j.bulanJawa} ${j.jawaYear}\nPasaran: ${j.pasaran}\nWuku: ${j.wuku}\nNeptu: ${j.neptu} (${j.artiNeton})`;
+                        const summary = `🌾 ${j.jawaDay} ${j.bulanJawa} ${j.jawaYear} (${j.namaTahun}) • ${j.pasaran} (Wuku: ${j.wuku}, Neptu: ${j.neptu})`;
+                        const desc = `Tanggal Jawa: ${j.jawaDay} ${j.bulanJawa} ${j.jawaYear} (${j.namaTahun})\nPasaran: ${j.pasaran}\nWuku: ${j.wuku}\nNeptu: ${j.neptu} (${j.artiNeton})`;
                         events.push({ date: dateStr, end: nextStr, summary, desc });
                     }
                     m++;
@@ -460,7 +501,7 @@
                 link.click();
                 document.body.removeChild(link);
                 setTimeout(() => URL.revokeObjectURL(url), 5000);
-                showToast('✅ File .ics berhasil diunduh (tanpa notifikasi)', 'success');
+                showToast('✅ File .ics berhasil diunduh', 'success');
             }
 
             function copyICSLink() {
@@ -511,7 +552,7 @@
                 else if (e.key === 't' || e.key === 'T') goToToday();
             });
 
-            showToast('✅ Kalender Jawa diperbaiki – bulan Maulud 1960', 'success', 4000);
+            showToast('✅ Kalender Jawa siap – Tahun Be 1960', 'success', 4000);
         })();
     </script>
 </body>
