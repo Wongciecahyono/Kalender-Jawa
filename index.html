@@ -184,7 +184,7 @@
             const BULAN_MASEHI = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
             const BULAN_JAWA = ['Sura','Sapar','Mulud','Bakda Mulud','Jumadil Awal','Jumadil Akhir','Rejeb','Ruwah','Pasa','Sawal','Sela','Besar'];
             
-            // ================== NAMA TAHUN DALAM SATU WINDU ==================
+            // Nama tahun dalam windu
             const NAMA_TAHUN_WINDU = ['Alip', 'Ehe', 'Jimawal', 'Je', 'Dal', 'Be', 'Wawu', 'Jimakir'];
 
             // ================== ACUAN KALENDER JAWA ==================
@@ -200,27 +200,19 @@
                 return Math.round((target - REF_DATE) / 86400000);
             }
 
-            // Fungsi untuk mendapatkan nama tahun dalam windu
             function getNamaTahun(jawaYear) {
-                // Tahun 1960 = Be, kita cari sisa pembagian dari 1960
-                // 1960 mod 8 = 0 (karena 8*245 = 1960), indeks 0 = Alip? 
-                // Tapi kita tahu 1960 adalah Be (indeks 5), jadi perlu offset
-                // 1960 mod 8 = 0, kita map kan ke indeks 5 (Be)
-                // offset = 5 - (1960 % 8) = 5 - 0 = 5
-                const offset = 5; // karena tahun 1960 = Be
+                const offset = 5; // karena 1960 = Be (indeks 5)
                 const idx = ((jawaYear + offset) % 8 + 8) % 8;
                 return NAMA_TAHUN_WINDU[idx];
             }
 
             function getJawa(year, month, day) {
                 const diff = getDayDiff(year, month, day);
-
                 const dayOfWeek = ((REF_DAY + diff) % 7 + 7) % 7;
                 const pasaranIdx = ((REF_PASARAN_INDEX + diff) % 5 + 5) % 5;
                 const pasaran = PASARAN_URUT[pasaranIdx];
                 const wukuIdx = ((REF_WUKU_INDEX + diff) % 30 + 30) % 30;
                 const wuku = WUKU[wukuIdx];
-
                 const nilaiHari = NILAI_HARI[dayOfWeek];
                 const nilaiPasaran = NILAI_PASARAN[pasaran];
                 const neptu = nilaiHari + nilaiPasaran;
@@ -447,7 +439,7 @@
                 goToMonth(y, m);
             });
 
-            // ================== GENERATE .ICS ==================
+            // ================== GENERATE .ICS (TANPA NOTIFIKASI) ==================
             function generateICS(year, month, monthsCount) {
                 const events = [];
                 const endMonth = month + monthsCount;
@@ -470,15 +462,27 @@
                     if (m >= 12) { m = 0; y++; }
                 }
 
-                let ics = 'BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Kalender Jawa//ID//\r\nCALSCALE:GREGORIAN\r\n';
+                // Header dengan pengaturan anti-notifikasi
+                let ics = 'BEGIN:VCALENDAR\r\n';
+                ics += 'VERSION:2.0\r\n';
+                ics += 'PRODID:-//Kalender Jawa//ID//\r\n';
+                ics += 'CALSCALE:GREGORIAN\r\n';
+                ics += 'METHOD:PUBLISH\r\n'; // agar tidak dianggap undangan
+                ics += 'X-WR-CALNAME:Kalender Jawa\r\n';
+                ics += 'X-WR-ALARM:NO\r\n'; // nonaktifkan alarm global
+                ics += 'X-APPLE-CALENDAR-ALARM:NO\r\n'; // untuk perangkat Apple
+                ics += 'X-MICROSOFT-CDO-ALARM:0\r\n'; // tetap disertakan tapi aman
+
                 for (const ev of events) {
                     ics += 'BEGIN:VEVENT\r\n';
                     ics += `DTSTART;VALUE=DATE:${ev.date}\r\n`;
                     ics += `DTEND;VALUE=DATE:${ev.end}\r\n`;
                     ics += `SUMMARY:${ev.summary}\r\n`;
                     ics += `DESCRIPTION:${ev.desc.replace(/\n/g, '\\n')}\r\n`;
-                    ics += 'TRANSP:TRANSPARENT\r\n';
-                    ics += 'X-MICROSOFT-CDO-ALARM:0\r\n';
+                    ics += 'STATUS:CONFIRMED\r\n'; // event sudah dikonfirmasi
+                    ics += 'CLASS:PUBLIC\r\n';
+                    ics += 'TRANSP:TRANSPARENT\r\n'; // tidak memblokir waktu
+                    // Tidak menambahkan BEGIN:VALARM sama sekali
                     ics += 'END:VEVENT\r\n';
                 }
                 ics += 'END:VCALENDAR\r\n';
@@ -501,7 +505,7 @@
                 link.click();
                 document.body.removeChild(link);
                 setTimeout(() => URL.revokeObjectURL(url), 5000);
-                showToast('✅ File .ics berhasil diunduh', 'success');
+                showToast('✅ File .ics berhasil diunduh (tanpa notifikasi)', 'success');
             }
 
             function copyICSLink() {
